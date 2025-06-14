@@ -1,0 +1,1951 @@
+dataset_id,question_id,bleu,rouge1,rouge2,rougeL,meteor,chrf,correct,response
+2,1,0.34833043510787526,0.4090909090909091,0.13953488372093023,0.29545454545454547,0.567111189990727,59.37596138351188,True,"By factoring the denominator, we get:
+
+
+
+$$y = \frac{2}{(x+3)(x-2)}$$
+
+
+
+Since both factors in the denominator are linear and do not cancel out with any factor in the numerator, there will be vertical asymptotes at $x=-3$ and $x=2$. Therefore, the graph of $y=\frac{2}{x^2+x-6}$ has $\boxed{2}$ vertical asymptotes."
+2,2,0.24836680075720463,0.24000000000000002,0.08333333333333333,0.24000000000000002,0.41169035989670405,32.123457995742726,True,"To find $120\%$ of 30, we have $1.2(30) = 36.$ To find $130\%$ of 20, we have $1.3(20) = 26.$ Therefore, the positive difference is $\boxed{10}$."
+2,3,0.37597027063315264,0.4528301886792453,0.2802547770700637,0.33962264150943394,0.5380562920809921,51.070803434992385,False,"We know that the smallest integer greater than $x$ must be $8$, since otherwise $\lceil x \rceil + x > \dfrac{23}{7}$.
+
+
+
+Now, we can write $x$ as $n+\epsilon,$ where $n=8$ and $\epsilon\in (0,1)$. Therefore, the equation becomes:
+
+
+
+$$
+
+\begin{aligned}
+
+8 + n + \epsilon &= \dfrac{23}{7}\\
+
+8 + 8 + \epsilon &= \dfrac{23}{7}\\
+
+16 + \epsilon &= \dfrac{23}{7}\\
+
+\epsilon &= \dfrac{23}{7} - 16 = \dfrac{-1}{7}
+
+\end{aligned}
+
+$$
+
+
+
+Since $\epsilon>0,$ the only value $x$ that satisfies the equation is:
+
+
+
+$$
+
+x=\dfrac{-1}{7}\in (0,1).
+
+$$"
+2,4,0.6354990697032294,0.5384615384615384,0.3137254901960785,0.4615384615384615,0.5378334826108012,65.89617001493099,True,"We have that $i^5 = i^4 \cdot i = (-1) \cdot i = -i$, and $i^{-25} = 1/i^{25} = 1/(i^{24}\cdot i) = 1/[1\cdot i] = -i$. Also, we know that $i^{45} = (i^4)^{11} \cdot i = 1^{11} \cdot i = i$.
+
+
+
+Therefore, adding these three results gives $i^5+i^{-25}+i^{45}=-i-(-i)+i=\boxed{i}$."
+2,5,0.34084305251528685,0.10526315789473685,0.0,0.10526315789473685,0.37588828219718756,30.980872901184746,True,"We can write 4 as $2^2$. Therefore, we can write our equation as $2^8 = (2^2)^x$. Solving, we get that $x = \boxed{4}$."
+2,6,0.38922894573942207,0.6666666666666667,0.5405405405405405,0.6666666666666667,0.7052154195011338,66.00815315310712,False,"The common difference for this arithmetic sequence is $10 - 6 = 4$, so the $100^{\text{th}}$ term is $6 + (4)(99) = \boxed{406}$."
+2,7,0.1282647245342024,0.11188811188811189,0.0425531914893617,0.11188811188811189,0.3200746504810417,33.3914843620317,False,"Subtracting 10 from both sides gives $x^2-5x-14\le0$. The quadratic factors as $(x-7)(x+2)\le0$, which is equivalent to the inequality $-(x-7)(x+2) \ge 0$, or $(x-7)(x+2) \le 0$.
+
+
+
+Since one of two negative quantities must be positive for their product to be non-negative, it follows that either both factors are negative (which can only happen when $x\in(-2,7)$), or one is negative and the other is positive (which can only happen when $x\in(-\infty,-2]\cup[7,\infty)$). The inequality $(x-7)(x+2)\le0$ is satisfied if either factor is non-positive, so it must be true that either $x\le -2$, or $7\le x$. Therefore the final answer in interval notation is $\boxed{(-\infty,-2]\cup[7,\infty)}.$"
+2,8,0.14594588450449597,0.2047244094488189,0.08,0.15748031496062995,0.3834928061254881,35.967235937513806,False,"To find the annual interest rate, we can use the formula:
+
+
+
+A = P(1 + r)^n,
+
+
+
+where A is the end balance ($1225), P is the principal ($1000), and n is the number of years (3).  We have
+
+
+
+\begin{align*}
+
+1225 &amp;= 1000(1+r)^3\\
+
+\Rightarrow\qquad \frac{1225}{1000}&amp;=(1+r)^3\\
+
+\Rightarrow\qquad \sqrt[3]{\left(\frac{1225}{1000}\right)}&amp;=1+r\\
+
+\Rightarrow\qquad 1.0589 &amp;\approx 1 + r.
+
+\end{align*}Therefore, the annual interest rate is $r = 1.0589 - 1 \approx 0.0589$, or $5.89 \%$ (to the nearest integer)."
+2,9,0.01126355735981569,0.273972602739726,0.027586206896551724,0.1780821917808219,0.17023283736945335,12.739949174229128,False,"The sum of two numbers is $10$, so one number is $3$ and the other is $7.$ The sum of two numbers is $20,$ so one number is $9$ and the other is $11.$  The sum of two numbers is $21,$ so one number is $8$ and the other is $13.$  The sum of two numbers is $18$, so one number is $5$ and the other is $15.$  The sum of two numbers is $19,$ so one number is $6$ and the other is $14.$
+
+Therefore, in increasing order, the four integers are $\boxed{3, 5, 6, 14}$."
+2,10,0.18262937864225584,0.07843137254901962,0.0,0.03921568627450981,0.35097168723205147,26.912234800574307,False,"Since we know that if $a=|b|=c,$ then $b=\pm c.$ We have:
+
+
+
+$$\begin{gather*}5x-1=\pm(3x+2),\\
+
+\Rightarrow \qquad 8x=-3,\\
+
+\text{or}\qquad -2x=3.
+
+\end{gather*}$$Since the solution is $-\frac{3}{8},$ that must be our answer."
+2,11,0.2457324427101866,0.23655913978494622,0.02197802197802198,0.15053763440860216,0.4553586452819679,36.70174453650606,False,"Since $h(x) = f(g(x))$, we substitute $g(x)$ into $f(x)$:
+
+$h(x) = 7(g(x))+5=7(x-1)+5$
+
+$h(x)=7x+7+5$
+
+$h(x)=7x+12$.
+
+We know that for any function $h(x)$, the inverse of $h(x)$ is defined by swapping $x$ and $y$, then solving for $y$.  We can start with:
+
+\begin{align*}
+
+x&=7y+12\\
+
+x-12&=7y\\
+
+\frac{x-12}{7}&=\frac{7y}{7}\\
+
+\frac{x-12}{7}&=y.
+
+\end{align*}Thus, we can conclude that the inverse of $h(x)$ is $\boxed{\frac{x-12}{7}}$."
+2,12,0.11694939247266672,0.32954545454545453,0.06285714285714286,0.14772727272727273,0.4014603985434772,37.2477409784265,False,"Since we know $|x| + 1 > 7$, let's subtract one from both sides to solve for $|x|$. We get:
+
+
+
+$$
+
+|x| > 6
+
+$$
+
+
+
+This means that the absolute value of $x$ is more than six. Since this occurs when either $x>6$ or $x<-6$, we have two cases:
+
+
+
+Case I: If $x>6$, then we can use $|x|=x$ to get:
+
+
+
+$$
+
+x > 6 \text{ and } x+1\le7\\
+
+x > 5
+
+$$
+
+
+
+This means that in this case, the integers satisfying the conditions are $x=6, 7,$ and $8$. We will have to check if these values work.
+
+
+
+Checking $x=6$ gives $|6| + 1 = 7$, which is not greater than 7, so we have found one invalid value. Checking $x=7$ gives $|7| + 1 = 8,$ which is greater than 7. Checking $x=8$ also gives a number that is greater than 7, so this must be an answer.
+
+
+
+Case II: If $x<-6$, then we can use $|x|=-(x)$ to get:
+
+
+
+$$
+
+-x > 6 \text{ and } x+1\le7\\
+
+-8 <x< -6
+
+$$
+
+
+
+This means that in this case, the integers satisfying the conditions are $x=-7$ and $x = -8$. We will have to check if these values work.
+
+
+
+Checking $x=-7$ gives $|-7| + 1= 8,$ which is greater than 7. Checking $x=-8$ also gives a number that is greater than 7, so this must be an answer.
+
+
+
+So the answers are $\boxed{-8,-7,6,7,8}$."
+2,13,0.9149550886302641,0.918918918918919,0.8571428571428571,0.918918918918919,0.9497866380012379,100.0,True,"We use the distance formula: $\sqrt{(-8 -0)^2 + (6 - 0)^2} = \sqrt{64 + 36} = \boxed{10}$.
+
+
+
+-"
+2,14,0.353084488627945,0.28205128205128205,0.13157894736842105,0.2307692307692308,0.713870163696433,52.13455720608903,True,"The x-coordinates of both points are 1. The y-coordinate is not equal for both points.
+
+
+
+To find the midpoint, we must average the x-coordinates together to get $\frac{1+1}{2} = 1$, and we must average the y-coordinates together to get $\frac{4+10}{2} = 7$. Thus, the coordinates of the midpoint are $(1, 7)$. The sum of the coordinates is $1 + 7 = \boxed{8}$."
+2,15,0.3359170503810167,0.32352941176470584,0.13432835820895522,0.2794117647058824,0.3469607315761162,40.81464561867644,False,"We can calculate the lengths of the diagonals by using the distance formula, \begin{align*}
+
+AC\quad & = \sqrt{(0-12)^2+(7+2)^2} \\ 
+
+& = 13.80
+
+\end{align*}
+
+
+
+and 
+
+
+
+$BD\quad & = \sqrt{(1-7)^2+(0-8)^2}$ 
+
+$\quad & = \sqrt{36+64}
+
+$
+
+$\quad & = \sqrt{100}
+
+$
+
+$\quad & = 10$. Then the area of $ABCD$ is $$\frac{1}{2}(AC)(BD)=\frac{1}{2}\cdot13.80\cdot10$$
+
+so the area of $ABCD$ is $\boxed{69}$"
+2,16,0.07832055026476815,0.28440366972477066,0.06481481481481481,0.20183486238532114,0.14367816091954022,30.040459381143968,True,"To find the smallest real number x in the domain of g, we can first analyze the expression inside the square root:
+
+
+
+\[(x - 3)^2 - (x - 8)^2\]
+
+
+
+Expanding and simplifying this expression, we get:
+
+
+
+\[x^2 - 6x + 9 - (x^2 - 16x + 64)\]
+
+\[= x^2 - 6x + 9 - x^2 + 16x - 64\]
+
+\[= 10x - 55\]
+
+
+
+Now, we want to find the smallest real number x such that this expression is non-negative:
+
+
+
+\[10x - 55 \geq 0\]
+
+
+
+Solving for x, we get:
+
+
+
+\[10x \geq 55\]
+
+\[x \geq 5.5\]
+
+
+
+Therefore, the smallest real number x in the domain of g(x) is x = 5.5."
+2,17,0.8522894953171495,0.7142857142857143,0.6923076923076923,0.7142857142857143,0.8309607325072886,95.57588298699413,True,"Because $-10<-3$, we use the first case to determine that $f(-10)=3(-10)+5=-30+5=\boxed{-25}.$"
+2,18,0.21264909900020973,0.1702127659574468,0.0,0.0851063829787234,0.4077465663360752,40.49213559435025,False,"Since $\dfrac{A\sqrt{B}}{C}=\dfrac{9}{2\sqrt{3}}$, cross-multiplying gives us the equation $(A\sqrt{B})(2\sqrt{3})=9(C)$. Taking the square root of both sides, we get \[2A\sqrt{3B}=9.\]Squaring again yields $4A^2(3B)=81$ and so $12A^2B=81$. Since 81 is divisible by 9 and A has no common prime factors with C, it must be that $A^2=9$, which means $A=3$. Dividing both sides of $12A^2B=81$ by 36 gives us $AB=\frac{9}{4}$. We know that $\sqrt{\frac{9}{4}}=\frac{3}{2}$, so multiplying $\frac{3}{2}$ by B and setting the expression equal to $\dfrac{9}{4C}$ yields \[\frac{3B}{2}=\frac{9}{4C}\Rightarrow\qquad 6B=C.\]Therefore, substituting $A=3$ into $AB=\frac{9}{4}$ gives us $B=\frac{3}{4}$. Since we are given that B has no perfect-square factors other than 1, the only possible value for B is $\dfrac{3}{4}$. Setting this equal to C and solving yields $C=6$. Therefore, $A+B+C=3+\frac{3}{4}+6=\boxed{\frac{51}{4}}$"
+2,19,0.17536873244129003,0.3111111111111111,0.10762331838565022,0.23999999999999996,0.4182970072132058,45.53051402831496,False,"Let $t$ be the weight of a trek, $s$ be the weight of a squig, and $g$ be the weight of a goolee. We have that $10t=3s+g$. Also, we know that $2t+g=s$.
+
+
+
+Multiplying both sides by 3 to get rid of the fraction, we obtain:
+
+
+
+\begin{align*}
+
+30t&=9s+3g\\
+
+\end{align*}
+
+
+
+Using Equation (1) for substitution, let's express $g$ in terms of $s$: \begin{align*}
+
+2t+s&=g\\
+
+\Rightarrow\qquad g&=2t+s.
+
+\end{align*} Substituting that into the previous equation, we have \begin{align*}
+
+30t&=9s+3(2t+s)\\
+
+\Rightarrow\qquad 27t &= 9s+6t+s \\
+
+\Rightarrow\qquad21 t &=8 s.
+
+\end{align*}Dividing both sides by $8$, we have $\frac{21}{8}t=s$.
+
+
+
+Let's solve the original equation for $g$. We know that $10t=3s+g$, and we also know that $2t+s=g$. Therefore, \begin{align*}
+
+3s+g&=10t\\
+
+\Rightarrow\qquad 3s+(2t+s)&=10t \\
+
+\Rightarrow\qquad4s&=8t.
+
+\end{align*} Dividing both sides by $4$, we have $\frac{4}{8}s=t$.
+
+
+
+Finally, substituting $t=\frac{1}{2}s$ into the equation $\frac{21}{8}t=s$, we have that one squig weighs 14 pounds and two treks weigh 7 pounds."
+2,20,0.22105507317216316,0.29545454545454547,0.16279069767441862,0.22727272727272727,0.43255813953488376,39.102923057169484,True,"We can use proportionality to solve this problem. Let x be the number of calories in a 12 fluid-ounce bottle. We set up a proportion:
+
+
+
+$\frac{8}{125} = \frac{12}{x}$
+
+
+
+Cross-multiply and simplify.
+
+
+
+$8x = 12(125)$
+
+$8x = 1500$
+
+$x = 187.5$
+
+
+
+The answer is $\boxed{187.5}$."
+2,21,0.18035916392539034,0.33009708737864074,0.058631921824104226,0.1747572815533981,0.3763784718622967,39.4482654369271,False,"If the two roots are equal, then they must be both $\frac{m}{2}$, so $p = \frac{m}{2}$. Then if the other root is also prime, we have that $p + p = m < 20,$ and therefore $p \leq 9$. Since $p$ is prime, this means that the possible values for $p$ are $\{2,3,5,7\}$.
+
+If the two roots are distinct, then one of them must be equal to $2$, since all primes greater than $2$ are odd. Then we have that $m = 2 + p + q,$ where $q$ is another prime less than $\frac{m}{2}$. Therefore, if $p = 2$, we must have that $m < 20$, so $m \leq 18.$ The possible values for $(p,q)$ in this case are $\{(3,5), (3,7), (3,11), (3,13), (3,17), (5,7), (5,11), (5,13), (5,17) , (7, 11), (7, 13), (7, 17)\}.$
+
+Therefore, the possible values of $n$ are $\{2^2 \cdot 3 = 12, 2\cdot3\cdot5=30, 2\cdot3\cdot7=42, 2\cdot3\cdot11=66 , 2\cdot3\cdot13=78, 2\cdot3\cdot17=102, 2\cdot5^2 = 50, 2\cdot3\cdot7=42, 2\cdot5\cdot7=70, 2\cdot3\cdot11=66, 2\cdot3\cdot13=78 , 2\cdot5\cdot11=110, 2\cdot7\cdot11=154, 2\cdot3\cdot17=102, 2\cdot5\cdot13=130, 2\cdot3\cdot17=102, 2\cdot7\cdot13=182 , 2\cdot5\cdot17=170, 2\cdot11\cdot13=286 , 2\cdot11\cdot17=374\}.$
+
+Therefore, the number of possible values for $n$ is $\boxed{19}$"
+2,22,0.10199287801136271,0.16393442622950818,0.03389830508474576,0.13114754098360656,0.2597067707949606,26.572956216184135,False,"Three years after Mike bought the stamp, he would have been offered $\2.50$ for it. Sixteen years later, he should be offered $\5.00$. Therefore, Mike will be offered$\boxed{\$5}$in twelve more years."
+2,23,0.06215668175688408,0.0967741935483871,0.0,0.06451612903225806,0.321595753305995,21.892288869228217,True,"We can rewrite this as
+
+\[\frac{17^5(17-1)}{16}=17^x.\]Since we know that $17-1 = 16$, we have \[\frac{17^6}{16}=17^x.\]Therefore, $\log_{17}\left(\frac{17^6}{16}\right)=\log_{17}(17^x)$, which gives us
+
+\begin{align*}
+
+\log_{17}\left(17^6\cdot 17^{-1}\right)&=\log_{17}(17^x)\\
+
+\Rightarrow \qquad \log_{17}17^5&=\log_{17}17^x.
+
+\end{align*}Since the bases are equal, we can set the exponents equal to each other and solve for $x$:
+
+\[5 = x.\]Therefore, $\boxed{x=5}.$"
+2,24,0.9783371030258865,0.9655172413793104,0.9647058823529412,0.9655172413793104,0.9869250355311595,98.65142798016457,True,"Since the pressure $p$ of the hydrogen and the volume $v$ are inversely proportional, $pv=k$ for some constant $k$. From the first container, we know that $k=3.67\cdot4=14.68$. Consequently, when we move it to the 1.835 liter container, we get that $1.835p=14.68$, so $p=\boxed{8}$."
+2,25,1.0,1.0,1.0,1.0,0.9999832164076399,100.0,True,"The given expression equals $a^{3+2}=a^5$. Plugging in the value of $a$, the expression equals $5^5=\boxed{3125}$."
+2,26,0.1983806717855831,0.2117647058823529,0.07228915662650602,0.1176470588235294,0.4072381739782589,41.36733205488973,False,"For any real number x, we have that $\sqrt{x^2} = |x|$, so the range of f is all non-negative real numbers. In interval notation, this can be written as $(0,\infty)$.
+
+
+
+Alternatively, consider the graph of $y=\sqrt{x^2}$:
+
+
+
+1.  For negative values of x, we have $\sqrt{x^2}=-x$.
+
+2.  For positive values of x, we have $\sqrt{x^2}=x$."
+2,27,0.6176462017428284,0.7115384615384616,0.6862745098039217,0.7115384615384616,0.9081007837866547,86.49901196471284,True,"Expanding the left side of the given equation, we have $(2x+5)(x-3) = 2x^2 - 6x + 5x - 15 = 2x^2 - x - 15.$ Since this equals 14, we have $2x^2-x-15=14$, or equivalently, $2x^2-x-29=0$. 
+
+
+
+Since in a quadratic  with equation of the form $ax^2+bx+c=0$ the sum of the roots is $-b/a$, the sum of the roots of the given equation is $1/2=\boxed{1/2}$."
+2,28,0.10828044438994998,0.2712933753943218,0.13333333333333333,0.20820189274447953,0.3931958013810696,38.069135229697416,False,"To find all possible values of c for which the quadratic equation $x^2 - 7x + c = 0$ has rational roots, we can use the discriminant.
+
+
+
+The discriminant is given by $\Delta = b^2 - 4ac$. In this case, we have a = 1, b = -7, and c is what we are trying to find.
+
+
+
+Since we want the roots to be real and rational, we require that the discriminant be a perfect square. Therefore, we can write:
+
+
+
+$$\Delta = (-7)^2 - 4(1)(c) = 49 - 4c = k^2$$
+
+
+
+where $k$ is an integer.
+
+
+
+Rearranging this equation gives us:
+
+
+
+$$c = \frac{49 - k^2}{4}$$
+
+
+
+Since c must be a positive integer, we can start by trying small values of k and see which ones give us a positive integer value for c. 
+
+
+
+Starting with $k=0$ gives us $c = 12.25$, which is not an integer.
+
+
+
+Trying $k=1$ gives us $c = \frac{48}{4} = 12$, which is indeed an integer.
+
+
+
+Trying $k=2$ gives us $c = \frac{45}{4}$, which is not an integer.
+
+
+
+Trying $k=3$ gives us $c = \frac{40}{4} = 10$, which is indeed an integer.
+
+
+
+We can continue trying values of k to see if we find any others. However, for $k>3$, the numerator will be negative and the denominator is always positive, so there will be no other integer solutions for c.
+
+
+
+Therefore, the possible values for c are 12 and 10."
+2,29,0.3490415533247653,0.1978021978021978,0.08988764044943821,0.13186813186813187,0.2971155760470402,37.39861869616759,True,"By Vieta's formulas, we have that
+
+\begin{align*}
+
+a+b&=5\\
+
+ab&=9
+
+\end{align*}
+
+
+
+Therefore,
+
+$$(a-1)+(b-1)=a+b-2$$
+
+which can be simplified to:
+
+$a+b-2 = 3$
+
+
+
+Also,
+
+
+
+$$(a-1)(b-1)=ab - (a + b) + 1$$
+
+
+
+so:
+
+
+
+$(a-1)(b-1)=9-(5)+1=5$."
+2,30,0.0,0.2869955156950673,0.03619909502262443,0.17937219730941703,0.3383942111921979,25.423709300140334,False,"Since the ratio of the roots is 3:1, we can say that the roots are $3k$ and $k$, where $k$ is a real number. The sum of the roots must be equal to -b, so we have:
+
+
+
+$$
+
+3k + k = -b \\
+
+4k = -b \\
+
+\frac{-b}{4} = k 
+
+$$
+
+
+
+We also know that the product of the roots is 48:
+
+
+
+$$
+
+(3k)(k) = 48 \\
+
+3k^2 = 48 \\
+
+k^2 = \frac{48}{3} \\
+
+k^2 = 16 \\
+
+k = \pm\sqrt{16} \\
+
+k = \pm4
+
+$$
+
+
+
+Since $k$ can be either positive or negative, there are two possible values of b: 
+
+
+
+$$
+
+-b = 4(-b) \\
+
+b = -8 
+
+$$ 
+
+and 
+
+$$
+
+-b = -4(-b) \\
+
+b = -4.
+
+$$
+
+
+
+Thus the largest value of b is $\boxed{-4}$."
+2,31,0.19580396567795805,0.365296803652968,0.16589861751152074,0.2922374429223744,0.4372260802469136,46.86644039000195,False,"Let $f$ be the number of cents that eight pounds of feathers and two ounces of gold costs, and let $g$ be the number of cents that fourteen pounds of feathers and three ounces of gold costs. We can set up a system of two equations to represent the given information: \begin{align*}
+
+8f + 2g &= 932 \\
+
+14f + 3g &= 1402 \\
+
+\end{align*}
+
+
+
+Multiplying both sides of the first equation by $\frac{7}{4}$ and the second equation by $\frac{5}{7}$, we get
+
+$$56f+7g=2596$$
+
+and
+
+$$70f+15g=1003.$$
+
+Subtracting the second equation from the first gives $-14f=-1593$. Dividing both sides of this equation by -14, we obtain that $f=\frac{-1593}{-14}$ cents. Since $\frac{-1593}{-14}=113.5$, five pounds of feathers and five ounces of gold cost $\$115.75$.
+
+
+
+Alternatively, if the system in the previous solution had worked for you, we could substitute this value of $g$ into either original equation to find that
+
+$$8(93)+2\left(\frac{1411}{7}\right)=932+200=1132,$$
+
+and so the cost is $\boxed{115}$ cents."
+2,32,0.38087153021270886,0.2,0.10344827586206896,0.2,0.3390397131437504,41.92357705159285,True,"We can complete the square to rewrite the equation as $(x+4)^2-16+(y-3)^2-9=0$, which simplifies to $(x+4)^2+(y-3)^2=25$.
+
+
+
+Therefore, the radius is $\sqrt{25}=5$."
+2,33,0.14521599622090736,0.24175824175824176,0.02247191011235955,0.15384615384615385,0.41225659318168534,39.87958750787077,False,"We can split this problem into two parts.  First, note that in order for a subset to have an odd number of elements, its elements must be from the same half of the set $\{1,2,3,4,5,6\}$.  Since there are six possible subsets with three elements (namely, $\{1,2,3\}$, $\{1,2,4\}$, $\{1,2,5\}$, $\{1,2,6\}$, $\{1,3,4\}$, and $\{1,3,5\}$), the sum of these 15 sums is $2(1+2+4+6+3+5) + (7+8+9+10)=2\cdot21+34=\boxed{76}$."
+2,34,0.20081158128716198,0.2834008097165992,0.06530612244897958,0.15384615384615385,0.38917322824411404,38.35228715573298,False,"Since all points lie on the same line, we can find its slope.
+
+
+
+We know that $\frac{-5-(-14)}{2-(p)}=\frac{(q)-(-17)}{13-(p)}$ or $\frac{9}{(p+1)-(p)}=q-\frac{28}{13-p}$
+
+
+
+Simplifying the equation we have:  $\dfrac{9}{1} = q + \dfrac{28}{p-13}$.
+
+
+
+Using $p = -2$, we have that:
+
+
+
+$q + \dfrac{28}{(-2)-13} = 9$
+
+
+
+$q + \dfrac{28}{-15} = 9$
+
+
+
+$q-\dfrac{28}{15} = 9$
+
+
+
+$q=\dfrac{136+28}{15}$
+
+
+
+$q=\dfrac{164}{15}=10.93\approx11.0$
+
+
+
+
+
+So $p=-2, q=11.$ We can check the validity of this answer by determining the slope between points $(13,q)$ and $(-2,-14)$. If we do this, then we get:
+
+
+
+$\frac{-14-q}{-2-13}$ =  $\frac{3.07}{15} \approx0.203$.
+
+
+
+We also know that we can determine the slope between points $(p,-14)$ and $(p+2,-17)$ to be 
+
+
+
+$\dfrac{-17-(-14)}{(p+2)-p}$
+
+
+
+Since both slopes are equal, then this must be true:
+
+
+
+$0.203=\frac{3}{2}$.
+
+
+
+However, $\frac{3}{2} \ne 0.203$, therefore we have made a mistake in our calculation and this method is not correct.
+
+
+
+We know that $-17 = -14 + (p+2) (-14)$
+
+
+
+Thus $3=-14 (p+2)$ 
+
+
+
+$\dfrac{-3}{-14}=p+2$
+
+
+
+$\dfrac{3}{14} = p+2$
+
+
+
+$p=\dfrac{21-28}{14}$
+
+
+
+We have to calculate $\dfrac{3}{14}-2$:
+
+
+
+$\dfrac{3}{14}-\dfrac{28}{14} = -\dfrac{25}{14} = \boxed{-1.79}$"
+2,35,0.29324943664164743,0.37209302325581395,0.14285714285714288,0.27906976744186046,0.4259803586598634,40.27525995421654,False,"The first term is $a = \frac{125}{9}$, and the ratio between terms is $\dfrac{\frac{25}{3}}{\frac{125}{9}}=\frac{3}{5}$. Therefore, the eighth term of the sequence is $\frac{125}{9}\cdot(\frac{3}{5})^{8-1} = \boxed{\frac{243}{125}}$."
+2,36,0.48538726423624173,0.3783783783783784,0.2222222222222222,0.3243243243243243,0.664589774078478,60.820514234686385,True,"Since $27=3^3$ and $9=3^2$, we can express both sides of the equation in terms of 3:
+
+
+
+$$
+
+(3^2)^{18n}=(3^3)^{24}
+
+$$
+
+
+
+Simplifying the exponents, we have:
+
+
+
+$$
+
+3^{36n}=3^{72}
+
+$$
+
+
+
+Since the bases are equal, the exponents must be equal. Therefore, $36n=72$, and solving for $n$ gives us $n=\boxed{2}$."
+2,37,0.06124768528747731,0.19574468085106383,0.017167381974248924,0.1021276595744681,0.20881505654952254,30.783068659563828,False,"To solve the inequality, we first break it up into two parts: -4 < x^4 + 4x^2 and x^4 + 4x^2 < 21.
+
+
+
+First part:
+
+-4 < x^4 + 4x^2
+
+x^2 (x^2+4) > -4
+
+Since x^2 >= 0, we only need to consider the second factor: 
+
+x^2 + 4 > -4
+
+x^2 + 4 > -4
+
+(x^2 > -8)
+
+Since x^2 is always non-negative, this inequality is satisfied for all real numbers.
+
+
+
+Second part:
+
+x^4 + 4x^2 <21
+
+x^2 (x^2+4) <21
+
+Now we consider two cases: 
+
+
+
+1. If x = 0: 
+
+   -4*0 + 4(0)^2= 0 which is less than 21, so it is valid.
+
+2. We check the case when x isn't equal to zero:
+
+x^2 >= 0 (from step 1)
+
+(x^2+4) > 0  (always true)
+
+so we have: x^2 < 21/4 
+
+   => x^2 < 5.25
+
+Taking square root of both sides, we get:
+
+- sqrt(5.25) < x < sqrt(5.25)
+
+
+
+So our final interval is (-sqrt(5.25), sqrt(5.25))."
+2,38,0.467368219440518,0.2201834862385321,0.056074766355140186,0.14678899082568808,0.4366928887652168,56.156902395412544,False,"We can multiply each term by $\sqrt{2}$ to clear the first denominator, giving us \[\frac{(\sqrt{2}+\frac{1}{\sqrt{2}})\cdot\sqrt{2}\cdot\sqrt{2} + (\sqrt{3}+\frac{1}{\sqrt{3}})}{\sqrt{2}} = \frac{4+3\sqrt{2}+\sqrt{6}+3}{\sqrt{2}}.\]Since $\sqrt{2}$ is in the denominator, we can multiply both the numerator and the denominator by $\sqrt{2}$ to get rid of it. This gives us \[\frac{(4+3\sqrt{2})\cdot\sqrt{2}\cdot\sqrt{2} + 3(\sqrt{6}+\sqrt{2})}{(\sqrt{2})(\sqrt{2})} = \frac{16 + 8\sqrt{2} + \sqrt{12}}{2},\]which simplifies to $\frac{16+8\sqrt{2}+2\sqrt{3}}{2}$, or $8+4\sqrt{2}+\sqrt{3}$. Therefore, we have that $a+b+c = 8 + 4 + 3 = \boxed{15}.$"
+2,39,0.9883579057291517,0.7500000000000001,0.7289719626168225,0.7500000000000001,0.44088959290295715,67.95657667923479,False,"Moving all the terms to the LHS, we have the equation $x^2-14x+y^2-48y=0$. Completing the square on the quadratic in $x$, we add $(14/2)^2=49$ to both sides. Completing the square on the quadratic in $y$, we add $(48/2)^2=576$ to both sides. We have the equation  \[(x^2-14x+49)+(y^2-48y+576)=625 \Rightarrow (x-7)^2+(y-24)^2=625\]Rearranging, we have $(y-24)^2=625-(x-7)^2$. Taking the square root and solving for $y$, we get $y=\pm \sqrt{625-(x-7)^2}+24$. Since $\sqrt{625-(x-7)^2}$ is always nonnegative, the maximum value of $y$ is achieved when we use a positive sign in front of"
+2,40,0.5754750260439752,0.19753086419753085,0.1518987341772152,0.19753086419753085,0.45972957084068194,76.97641606800299,True,"Using the distributive property, we have \begin{align*}
+
+(2x^5+3x^2)(x^4-4x^2+3x-8)&=(2x^5)(x^4)+(2x^5)(-4x^2)+(2x^5)(3x)-(2x^5)(8)\\
+
+&\qquad +(3x^2)(x^4)+(3x^2)(-4x^2)+(3x^2)(3x)-(3x^2)(8)\\
+
+&=2x^{9}-8x^7+6x^6-16x^5\\
+
+&\qquad +3x^6-12x^4+9x^3-24x^2\\
+
+&=\boxed{2x^9-8x^7+9x^6-16x^5-12x^4+9x^3-24x^2}.
+
+\end{align*}"
+2,41,0.930505645517453,0.9482758620689655,0.9298245614035088,0.9482758620689655,0.9634976051004887,95.66451161593473,False,"By considering the expression $\frac{-b\pm \sqrt{b^2-4ac}}{2a}$ for the roots of $ax^2+bx+c$, we find that the roots are real and distinct if and only if the discriminant $b^2-4ac$ is positive. So the roots of $2x^2+mx+8$ are real and distinct when $m^2-4(2)(8) > 0$.  Simplifying and factoring the left-hand side, we find $(m-16)(m+16) > 0$, which implies $m\in \boxed{(-\infty,-16)\cup (16,\infty)}$."
+2,42,0.21196610841930713,0.20408163265306126,0.0,0.12244897959183673,0.3517774802915366,28.452284559686863,True,"When a=4, we have
+
+$$3(4) + 2b = 12 \Rightarrow b=\frac{12 - 3\cdot 4}{2} = \boxed{0}.$$
+
+Therefore, when a=4, the coordinates are (4, 0)."
+2,43,0.42604141217534086,0.4126984126984127,0.16393442622950818,0.3492063492063492,0.4531001505936683,46.01183576526722,True,"If $|x-1|=7$, then either $x-1=7$ or $x-1=-7$.  The first case gives $x=8$, and the second gives $x=-6$. Therefore, the sum of all values of x is $\boxed{2}$"
+2,44,0.1555563520817398,0.3715415019762846,0.0796812749003984,0.18972332015810275,0.3260802109969762,37.397477600950616,True,"The bookstore's revenue from selling a certain number of books can be calculated as the product of the number of books it sells and the price that each book is sold for.
+
+
+
+Since the number of books sold per month is $128-4p$ and the price of the book is $p$, then the revenue from one month of sales is $(128-4p)p$. Since this needs to be maximized, we want to find the maximum value for \begin{align*}
+
+(128-4p)p
+
+&= 128p - 4p^2\\
+
+&=\frac{-4p^2+128p}{1}\\
+
+&=-4\left(p-\frac{32}{1}\right)^2+\frac{1024}{1}.
+
+\end{align*}
+
+
+
+The revenue will be maximized when $p-16=0$. Solving this, we get that the price should be $\boxed{\$16}$.
+
+
+
+To confirm this answer, it's sufficient to show that \[8(p-16)^2 = (128-4p)p.\] Expanding both sides yields
+
+\begin{align*}
+
+8(p-16)^2 &=(128-4p)p\\
+
+&= 128p - 4p^2\\
+
+&= 8(p-16)^2.
+
+\end{align*}"
+2,45,0.258756916570738,0.2127659574468085,0.04316546762589928,0.1702127659574468,0.5124520310905784,45.19162968470521,False,"First, convert the mixed number to an improper fraction.  $1\frac16 = \frac{7}{6}$.
+
+
+
+Now the equation becomes:
+
+$\frac{\frac{7}{6}}{w} = \frac{42}{3}$
+
+
+
+To simplify, multiply both sides of the equation by w, which yields $\frac{7}{6}=\frac{42w}{3}$.  To further simplify this expression, divide $42$ by $3$, which results in $\frac{14}{1}$. So we now have $\frac{7}{6} = \frac{14w}{1}$.
+
+
+
+Now that both sides of the equation are expressed as improper fractions, cross-multiply to find w.  The resulting expression is:
+
+$\frac{7}{6}=\frac{14w}{1}$
+
+$7\cdot1=14w\cdot\frac{6}{6}$
+
+Now solve for w: $7 = \frac{84}{6}\cdot w$,
+
+$7 = 14w$, and
+
+$\frac{7}{14}=w$
+
+
+
+Finally, express the answer as a simplified fraction. $\boxed{\frac{1}{2}}$."
+2,46,0.5727369707266282,0.0,0.0,0.0,0.4376805883898083,41.899408692397394,True,We have $(1+2i)6-3i= (6+12i)-3i =\boxed{6+9i}$.
+2,47,0.12099340286498485,0.198019801980198,0.0404040404040404,0.1188118811881188,0.21911843050054433,29.96969788420453,False,"Given that \[\frac{4a + 3b}{a - 2b} = 5\] we can multiply both sides by $a - 2b$, to get \[4a + 3b = 5(a - 2b).\] Expanding, we have \[4a + 3b = 5a -10b,\] or equivalently, \[-a = 13b\Rightarrow a=-13b.\] We can then substitute this value of $a$ in the original fraction to get \[\frac{(-13b)+11b}{-13b-b}=\frac{-2b}{-14b}=\boxed{\frac12}.\]"
+2,48,0.29660568009416055,0.05405405405405406,0.0,0.05405405405405406,0.370230112940233,49.22587978464179,True,"We simplify as follows:
+
+
+
+\begin{align*}
+
+(2-2i)(5+5i) &= 2(5+5i) -2i(5+5i)\\
+
+&=10 + 10i - 10i - 10i^2 \\
+
+&= 10 - 10(-1) \\
+
+&= \boxed{20}
+
+\end{align*}"
+2,49,0.7140613782622217,0.7857142857142857,0.7037037037037038,0.7857142857142857,0.8952710955439388,81.89890858352943,True,"We can factor out a $7$ from both terms, giving $(7)(x^2-9)$. Then we can factor the second expression because it is a difference of squares, giving $\boxed{(7)(x-3)(x+3)}$."
+2,50,0.24010888026091223,0.1111111111111111,0.0,0.05555555555555555,0.31617279473029003,45.105362710913106,False,"To find $f(y)+g(y)$, we simply combine like terms:
+
+
+
+\begin{align*}
+
+&f(y)+g(y)\\
+
+&\qquad=(y^4-3y^3+y-3)+(y^3+7y^2-2)\\
+
+&\qquad=y^4+(1)(y^3)-(-3y^3)+(0)y^2+(1)y+(-3)+(-2)\\
+
+&\qquad=\boxed{y^4 + 4y^3 + 7y^2 + y - 5}.
+
+\end{align*}"
+2,51,0.12384504111848058,0.16363636363636364,0.01851851851851852,0.09090909090909093,0.2421833686964714,21.0490221987275,False,"We can evaluate this difference at any point where they are different: for instance, at $x=8$, $$f(8)-g(8)=4-12=-8,$$ and at $x=10$, \begin{align*}
+
+f(10)-g(10)&=0-10=-10.
+
+\end{align*}However, at the point $(10,8)$, we have
+
+\begin{align*}
+
+f(x)-g(x) &= 12 - (8 + 4) \\
+
+&= \boxed{0}.
+
+\end{align*}"
+2,52,0.40620691051502916,0.14084507042253522,0.02898550724637681,0.11267605633802817,0.4005917711800658,36.059697887629696,True,"If we set $y=f(x)$, then we have $$f(f(x)) = f(y)= x.$$
+
+
+
+Since $f^{-1}(f(x))$ is the inverse of $f$ evaluated at $f(x)$, this means that $f^{-1}(x)= y$, and therefore  $$f^{-1}(f(x))-f(x) =y -f(x) =0.$$"
+2,53,0.18888928524257004,0.3777777777777777,0.12359550561797752,0.23333333333333336,0.4028091338564398,41.33537557242838,False,"The common difference of the sequence is 13. To find the first negative term, we can set up an inequality:
+
+
+
+$$1000 + (n - 1)(-13) < 0$$
+
+
+
+Solving for $n$, we get:
+
+
+
+$$n > \frac{1000}{13} = 76.92...$$
+
+
+
+Since $n$ is an integer, the smallest possible value of $n$ that satisfies the inequality is 77.
+
+
+
+The first negative term in the sequence occurs when $n = 77$:
+
+
+
+$$1000 + (77 - 1)(-13) = 1000 - 976 = 24$$
+
+
+
+So, the least positive integer in the sequence is $\boxed{974 - 3(13)}= \boxed{961-12*13}= \boxed{61}$"
+2,54,0.5337205377521187,0.36,0.08333333333333333,0.36,0.5862083942609778,53.738137007445175,True,"We have $8 = 2^3$ and $\sqrt{2} = 2^\frac12$. So, we can express $28\sqrt{2}$ as $(2^3)(2^\frac12) = 2^{3+\frac{1}{2}} = 2^\frac{7}{2}$.
+
+
+
+Therefore, $\log_8 28\sqrt{2} = \boxed{\frac{7}{2}}$."
+2,55,0.07729907396349037,0.2678983833718245,0.08352668213457078,0.14318706697459585,0.39238712428303457,37.19400214513777,False,"We can determine how much money the amusement park makes from buying up to $60$ tickets by multiplying the price, or $\$70$, by the number of tickets, or $t$. This gives us $$70t.$$ For any value of $t>60,$ we can find a formula for how much money they make. The first ticket costs $\$69$, the second costs$\$68$, and so on. We know that the total revenue from these tickets is given by \begin{align*}
+
+&\hspace{-3cm}\textrm{Total Revenue}\\
+
+= &\ \ 70t\\
+
++ &\ 69(t-1)\\
+
++ &\ 68(t-2)\\
+
++ &\ \cdots\\
+
++ &\ \ 61(t-59)
+
+\end{align*}We can simplify this formula by recognizing that the first $60$ terms of a finite arithmetic series with common difference of $-1$ form an arithmetic sequence. By calculating the sum of this finite arithmetic sequence, we have: \begin{align*}
+
+&\hspace{-3cm}\textrm{Total Revenue}\\
+
+= &\ 70t\\
+
++ &\ 69(t-1)+69\\
+
++ &\ 68(t-2)+68+67+\cdots+61+60
+
+\end{align*}After the $60$ terms, we know that $$69 + 68 + \cdots + 61 + 60 = 60(70)+(60)(59)/2=21600.$$The total revenue is therefore given by: \begin{align*}
+
+&\hspace{-3cm}\textrm{Total Revenue}\\
+
+= &\ 70t\\
+
++ &\ 69(t-1)+69\\
+
++ &\ 68(t-2)+68+67+\cdots+61+60\\
+
+= &\ (70 + 69 + 68 + \cdots + 61) + t[(70 - 61)]
+
+\end{align*}Substituting the value of the sum of the first $59$ positive integers, we have: $$21600+t(9)=21609+9t.$$The amusement park makes a profit of $\$4200$, so \begin{align*}
+
+&\hspace{-3cm}\textrm{Profit}\\
+
+= &\ \textrm{Total Revenue}-\textrm{Cost}\\
+
+= &(21609 + 9t) - (60)(70)\\
+
+> &\ 4200.
+
+\end{align*}Simplifying, we get $21609+9t-4200>0$ or $$\frac{21609}{9}+t>\frac{4200}{9}\Rightarrow 2401+t>466.67$$This can be rewritten as \begin{align*}
+
+t&>466.67 - 2401\\
+
+&=  -1934.33.
+
+\end{align*}Since the number of tickets bought must be greater than $-1934.33$, we have that $t$ is positive and therefore greater than zero. We can solve this inequality for $t$: \begin{align*}
+
+t&amp;>466.67 - 2401\\
+
+\Rightarrow t&>\boxed{-1934}.
+
+\end{align*}Since the number of tickets bought must be a whole number, we have that the largest possible value of $t$ is $\boxed{60}$"
+2,56,0.23307778511789543,0.21176470588235297,0.024096385542168676,0.1411764705882353,0.45532167480936936,45.75310789570031,False,"Let $x= \log_{\sqrt{8}}(64\sqrt{8})$.  Putting this in exponential notation gives $(\sqrt{8})^x = 64\sqrt{8}$.  Writing both sides with $2$ as the base gives us $8^{\frac{x}{2}} = 2^{6}\cdot 2^{3/2}$.
+
+
+
+Since $8=2^3$, we have $(2^3)^{\frac{x}{2}} = (2^6)(2^{3/2})$. This simplifies to $2^{\frac{3x}{2}} = 2^{6+\frac{3}{2}}$.
+
+
+
+Because the bases are equal, the exponents must be equal. Therefore, we have:
+
+
+
+$\frac{3x}{2} = 6 + \frac{3}{2}$
+
+
+
+Multiplying both sides by $2/3$, we get:
+
+
+
+$x=\boxed{\frac{15}{2}}$."
+2,57,0.7331516899622899,0.8533333333333334,0.8219178082191781,0.8533333333333334,0.831271860883923,81.35255742917002,True,"The fraction $\frac{1}{2y+1}$ fails to be defined only if the denominator is zero. This occurs when $y$ is the solution of the equation $$2y+1=0,$$ which is $y=-\frac{1}{2}$. Thus the domain of $k(y)$ is $\boxed{(-\infty,-\frac{1}{2}) \cup (-\frac{1}{2}, \infty)}$."
+2,58,0.14454055699714843,0.36697247706422015,0.07407407407407407,0.2110091743119266,0.41345225221548915,43.601872064645164,False,"To find the probability that there are no real solutions to the given equation $x(x+5)=-n,$ we need to determine which values of $n$ produce complex roots.
+
+
+
+The equation can be written in standard form, $ax^2+bx+c=0$, where $a=1,b=6,c=-n$.  We use the discriminant formula $b^{2}-4ac$ to find the roots. The roots will be real if and only if the discriminant is nonnegative. Therefore, we need $\left(6\right)^{2}-4\left(1\right)\left(-n\right) \geq 0,$ or equivalently $36+4n>0.$ This means that for all values of $n$ in our problem, the roots will be real.
+
+
+
+However, if we square both sides of this inequality and divide by $4$, we can see that since all the integers between $1$ and $10$ inclusive satisfy this condition, no number satisfies the original equation and therefore there are no solutions. Thus, $\boxed{\text{there is only one solution}}.$"
+2,59,0.6731667938746556,0.19047619047619047,0.05000000000000001,0.14285714285714285,0.6328581683929854,59.390634238825015,True,"Given that $f(1) = 2$, $f(4) = 3$, and $f(7) = 4$. Therefore, we have
+
+$f^{-1}(2)=1$
+
+$f^{-1}(3)=4$
+
+$f^{-1}(4)=7.$ 
+
+Hence,
+
+\[f^{-1}(f^{-1}(3))= f^{-1}(4)=\boxed{7}.\]"
+2,60,0.1960411363120686,0.17142857142857143,0.058823529411764705,0.17142857142857143,0.5281858533619473,44.86167541783917,True,"To simplify, we need to multiply the two complex numbers.
+
+
+
+$(3-i)(6+2i) = (3)(6) + (3)(2i) - (i)(6) - (i)(2i)$
+
+$= 18 + 6i - 6i - 2i^2$
+
+Since $i^2 = -1$, we replace $i^2$ with $-1$:
+
+
+
+$= 18 + 6i - 6i - 2(-1)$
+
+$= 18 + 6i - 6i + 2$
+
+$= 20$
+
+
+
+So, $(3-i)(6+2i) = \boxed{20}$."
+2,61,0.6907592549281689,0.638655462184874,0.4444444444444444,0.6218487394957983,0.7575296415233777,76.55418334971863,True,"We start by completing the square: \begin{align*}
+
+x^2 - 14x + 3 &= x^2 - 14x + (14/2)^2 - (14/2)^2 + 3\\
+
+&= (x-7)^2 - (7)^2 + 3 \\
+
+&= (x-7)^2 -49+3 \\
+
+&= (x-7)^2 -46
+
+.\end{align*} Since the square of a real number is at least 0, we have $(x-7)^2\ge 0$, where $(x-7)^2 =0$ only if $x=7$.   Therefore, $2(x-3)^2 -15$ is minimized when $x=\boxed{7}.$"
+2,62,0.3238651502623092,0.21138211382113825,0.1652892561983471,0.1951219512195122,0.2701413645366264,38.39435052910007,False,"Since the radicand is a nested radical, we can evaluate it by simplifying from the innermost radical.
+
+
+
+$\root 3 \of {x \root 3 \of {x \root 3 \of {x \sqrt{x}}}} =\root 3 \of {(x \cdot x^{1/3} \cdot x^{2/9})} =\root 3 \of {x^{1+2/3+4/9}}$
+
+
+
+Now we can evaluate the exponent.
+
+
+
+$1+\frac{2}{3} + \frac{4}{9}= \frac{9}{9} + \frac{6}{9} + \frac{4}{9} = \frac{19}{9}$
+
+
+
+So, $\root 3 \of {x^{1+2/3+4/9}} =\root 3 \of {x^{\frac{19}{9}}}$. 
+
+
+
+Therefore,
+
+
+
+$\root 3 \of {x \root 3 \of {x \root 3 \of {x \sqrt{x}}}}= x^\frac{1}{3} \cdot \sqrt[x]{x}=\boxed{x^\frac{1}{3}\cdot x^\frac12=x^\frac13\cdot x^\frac12=x^\frac13\cdot x^\frac12=x^\frac{1+2}{3}=x^\frac32}$"
+2,63,0.14893127384629484,0.16513761467889912,0.0,0.12844036697247704,0.38674785909030857,31.10818339727301,False,"The solutions to the equation $x(x-3)=1$ can be expressed in the form $\frac{p+\sqrt{q}}{r}$ and $\frac{p-\sqrt{q}}{r}.$ We have that
+
+\begin{align*}
+
+x^2-3x&=1\\
+
+x^2-3x-1&=0\\
+
+(x-\alpha)(x-\beta)&=0,
+
+\end{align*}where $\alpha$ and $\beta$ are the roots of this equation. Applying Vieta's formulas, we see that \begin{align*}
+
+\alpha+\beta&=-(-3)=3,\\
+
+\alpha\beta&=(-1).
+
+\end{align*}Therefore, the solutions to $x(x-3)=1$ can be expressed in the form $\frac{\pm\sqrt{4}-3}{2}$, where 2 and 4 are prime numbers. Then, we get that $$abc=(2)(3+2)=10.$$"
+2,64,0.0,0.27118644067796616,0.10526315789473685,0.23728813559322035,0.35284445232864375,27.356212296526817,False,"Let $r_1$ and $r_2$ be the roots of this polynomial. Therefore, $r_1+r_2=-\frac{13}{2}$ and $r_1r_2=\frac{6}{2}=3$. The product of the squares is
+
+$(r_1^2 + r_2^2) = (r_1 + r_2)^2 - 2r_1 r_2$
+
+$= \left(-\frac{13}{2}\right)^2-2(3)$
+
+$=\frac{169}{4} -6$
+
+$=\frac{169 -24}{4}$
+
+$=\frac{145}{4}.$"
+2,65,0.4243865471100609,0.10714285714285714,0.037037037037037035,0.10714285714285714,0.45723041999138636,51.4131596486762,True,"Since a=8, we have:
+
+
+
+$\left(16 \sqrt [3] {8^{2}} \right) ^ {\frac{1}{3}}$
+
+$ = \left(16 \sqrt [3] {(4^{3}) ^{2}}\right)^{\frac 13}$
+
+$= (16 \cdot 4)^{\frac 13}$
+
+$= 64^{\frac 13}$
+
+$= (4^{3}) ^ {\frac{1}{3}}$
+
+$ = 4 ^ {1}$"
+2,66,0.26048138326093473,0.15384615384615385,0.0196078431372549,0.1346153846153846,0.2609914486087502,29.040921892000227,False,"We have that \begin{align*}
+
+(m+n)^2&=64\\
+
+\Rightarrow\qquad m^2+2mn+n^2&=64.
+
+\end{align*}Substituting $7$ for $mn$, we find that \begin{align*}
+
+m^2+14+n^2&=64\\
+
+\Rightarrow\qquad m^2+n^2&=50.
+
+\end{align*}Now, we have that
+
+
+
+$$|m-n|^2=(m-n)^2=m^2-2mn+n^2.$$Therefore,
+
+
+
+$$|m-n|^2=m^2+n^2-4mn=50-28=\boxed{22},$$so $|m-n|= \sqrt{22}.$"
+2,67,0.2422271998664103,0.29292929292929293,0.02040816326530612,0.15151515151515152,0.3485805946381263,35.38380768002044,False,"Let $(x,y)$ be a point on the graph of the equation $y = \frac{1}{2} x^2 - 9.$ Then, for any value of $x$, we have that
+
+\begin{align*}
+
+(0-x)^2 + (0-y)^2 &= (x-0)^2 + (y-\frac{1}{2}x^2+9)^2\\
+
+&= x^2+(y-\frac{1}{2}x^2+9)^2
+
+\end{align*}
+
+The smallest value this expression can attain occurs when $x = 0,$ so we have that the distance from the origin to a point on the graph of $y=\frac{1}{2} x^2-9$ is given by \begin{align*}
+
+(0-y)^2
+
+&= y^2\\
+
+&= (\frac{1}{2}(0)^2-9)^2 \\
+
+&=( -9 )^2  =81.
+
+\end{align*}
+
+
+
+Therefore, the smallest distance between the origin and a point on the graph of $y=\frac{1}{2} x^2-9$ is given by $\sqrt{81}=9$. We are asked to find $a^2$, where $a$ is this smallest distance.  Therefore, we have that \begin{align*}
+
+a^2&=9^2\\
+
+&=\boxed{81}.
+
+\end{align*}"
+2,68,0.3336123519690618,0.1739130434782609,0.0909090909090909,0.1739130434782609,0.7924292845257904,59.120579138323514,True,"The midpoint formula states that the midpoint of a line segment with endpoints $(x_1,y_1)$ and $(x_2,y_2)$ is given by the coordinates $\left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}\right)$. Since $P$ has coordinates $(5,3)$ and $Q$ has coordinates $(-3,6)$, we have that
+
+
+
+$$\left(\frac{5+(-3)}{2},\frac{3+6}{2}\right)=\boxed{\left(1,\frac{9}{2}\right)}.$$"
+2,69,0.1280614096005876,0.1893491124260355,0.04761904761904762,0.11834319526627218,0.38658032982067697,28.440057555228137,False,"## Step 1:  To find the sum of the fractions in the 15th row, we need to understand how the pattern is constructed.
+
+## Step 2:  The given pattern shows that each row has one more entry than the previous row. This implies a relationship between the numerator and denominator of the fractions within each row.
+
+## Step 3:  In Row $n$, the denominators are all $(n+1)$, as stated in the problem. We also notice that the numerators in Row $n$ are all less than or equal to $n$. Furthermore, for any particular value of $k$ where $0 \le k \le n$, there is exactly one fraction with numerator $k$ and denominator $(n+1)$.
+
+## Step 4:  We're interested in finding the sum of these fractions for Row 15. The denominators will be 16, as Row 15 is made up of fractions with a common denominator of (15+1).
+
+## Step 5:  Each fraction is of the form $\frac{n}{n+1}$ where $0 \le n \le 15$. To find the sum, we can write out these fractions and then calculate their total.
+
+## Step 6:  The sum can be expressed as $$\sum_{n=0}^{15}\frac{n}{n+1}.$$ This can be simplified to a telescoping series by finding a pattern in each term that allows for cancellation of adjacent terms, ultimately leading to the final result.
+
+## Step 7:  We observe that $\frac{0}{1} + \frac{1}{2} + \frac{2}{3} + \cdots + \frac{14}{15} + \frac{15}{16}$ can be rewritten as $$\left(1-\frac{1}{2}\right) + \left(\frac{1}{2}-\frac{2}{3}\right) + \left(\frac{2}{3}-\frac{3}{4}\right) + \cdots + \left(\frac{14}{15}-\frac{15}{16}\right).$$
+
+## Step 8:  Upon simplification, we see that the sum of these fractions reduces to $1 - \frac{15}{16} = \boxed{\frac{1}{16}}.$
+
+
+
+The final answer is: $\boxed{\frac{1}{16}}$"
+2,70,0.2137827989590152,0.4117647058823529,0.2727272727272727,0.38235294117647056,0.6807469937175514,54.750448286709585,False,"We complete the square.  We can square $\frac{x + 4}{2}$ to get $(x+4)^2 = x^2 + 8x + 16$.  If we subtract 11 from both sides of this equation, we get $(x+4)^2 - 11 = x^2 + 4x + 5$, which means that $h$ must be $\boxed{-4}$."
+2,71,0.36059492670026866,0.11764705882352941,0.0,0.058823529411764705,0.3994029850746269,61.48825382816836,True,"Given that $(x,y) = (3,9)$ we have 
+
+
+
+$$
+
+\begin{aligned}
+
+& y^2-3xy+8\\
+
+&=9^2-3(3)(9)+8\\
+
+&=81-81+8=\boxed{8}\text{.}\end{aligned}
+
+$$"
+2,72,0.059501622217379625,0.20118343195266272,0.011976047904191616,0.14201183431952663,0.3720471762275943,27.98991187487671,False,"We can express the original numbers as $3k$ and $5k$, where $k$ is a number. The problem states that when we subtract 4 from the lesser number, which is $3k$, and add 8 to the greater number, which is $5k$, we get a new ratio of $2:7$. This can be written as an equation: \begin{align*}
+
+\frac{(3k-4)}{(5k+8)}&=\frac{2}{7}\\
+
+7(3k - 4) &= 2 (5k + 8)
+
+\end{align*} Solving for $k$ gives us the following steps:
+
+\begin{align*}
+
+21k-28&=10k+16\\
+
+21k-10k&=16+28\\
+
+11k &=44\\
+
+k &= \frac{44}{11}\\
+
+    & =4.
+
+\end{align*} Substituting $k$ into our original expressions for the numbers, we get that the lesser number is $3(4) - 4 = 8$ and the greater number is $5(4)+8 = 24$."
+2,73,0.18054985875613122,0.2162162162162162,0.05555555555555555,0.1081081081081081,0.25606847272914207,26.084987360095933,True,"Since $j$ and $k$ are inversely proportional, we can write $jk=k_0j_0$, where $j_0=16$ and $k_0=21$. Thus, $jk=(21)(16)=336$. We are asked to find the value of $j$ when $k=14$, so we solve $(14)j=336$ or $j=\boxed{24}$."
+2,74,0.0449959766250368,0.1137440758293839,0.04285714285714286,0.0947867298578199,0.21266784002902944,26.19550335878676,False,"## Step 1: Recall the quadratic formula to find roots
+
+The quadratic formula states that for an equation in the form ax^2 + bx + c = 0, the solutions are given by x = (-b ± √(b^2 - 4ac)) / (2a). We will use this formula to solve for k.
+
+
+
+## Step 2: Substitute the values into the quadratic formula
+
+We know that one of the roots is x = (13-√131)/4, and we are looking for the value of k. Plugging in a=2, b=-13, c=k, and x=(13-√131)/4 into the quadratic formula.
+
+
+
+## Step 3: Substitute values to find k
+
+Since the given root satisfies the equation, it should satisfy the quadratic formula as well. Substituting the values of a, b, and c in terms of x gives us (4x + 13)^2 - 4*2*k = 131. Now we can plug in the value of x = (13-√131)/4.
+
+
+
+## Step 4: Plug in x into the equation
+
+((4*(13-√131)/4) + 13)^2 - 8k = 131
+
+
+
+## Step 5: Simplify the expression
+
+(26-√131+52)^2/16 - 8k = 131
+
+(78 - √131)^2/16 - 8k = 131
+
+
+
+## Step 6: Expand and simplify the equation
+
+((78 - √131)^2)/16 - 8k = 131
+
+(6084-156*√131+131)/16 - 8k = 131
+
+(6084-156*√131+131)/16 - 131/1 = 0
+
+
+
+## Step 7: Solve for k
+
+To solve the equation, let's multiply both sides by 16 to get rid of the fraction:
+
+6084-156*√131+131-2104=0
+
+3980-156*√131=-2082
+
+Add 2082 to both sides
+
+6062-156*√131=0
+
+Now we add 156*√131 to both sides and then divide by -156
+
+√131 = (6062/156)=39.0651
+
+
+
+
+
+## Step 8: Solve the quadratic equation
+
+Let x be √131, so:
+
+x^2 = (√131)^2 = 131
+
+
+
+So we plug it back in the original equation.
+
+(26-39.0651+52)^2/16 - 8k = 131
+
+(39.0651)^2/16 - 8k = 131
+
+Now multiply both sides by 16:
+
+3929.4225-131*√131=2088
+
+
+
+Add √131 to both sides and then divide by -8:
+
+(-131*√131+3957.4225)/8=0
+
+
+
+
+
+## Step 9: Solve for k
+
+Now we plug in the positive value of x, so (√131)^2 is positive.
+
+√131 = (39.0651)
+
+
+
+
+
+So we plug it back in the original equation.
+
+(26-39.0651+52)^2/16 - 8k = 131
+
+(39.0651)^2/16 - 8k = 131
+
+Now multiply both sides by 16:
+
+3929.4225-131*√131=2088
+
+
+
+Add √131 to both sides and then divide by -8:
+
+
+
+
+
+The final answer is: $\boxed{19}$"
+2,75,0.31770867596268926,0.39999999999999997,0.1590909090909091,0.26666666666666666,0.5436961491120098,41.91273126076347,True,"We can rewrite the equation as $2x^2 -20x = -50$, or equivalently,  $2x^2 - 20x +50=0$. Dividing both sides by 2 gives $x^2 - 10x+25=0.$ 
+
+
+
+Factoring this quadratic we get $(x-5)^2=0,$ so $x=5$ is the only solution. Thus, the sum of all possible values of $x$ is $\boxed{5}$."
+2,76,0.13034057436827703,0.24418604651162795,0.07058823529411765,0.12790697674418602,0.21169522927281148,28.043883072530857,False,"The point $(-1,0)$ tells us that \[0 = a - b + c.\]Plugging in $(0,5)$ gives us \[5=c.\]Finally, plugging in $(5,0)$ yields \begin{align*}
+
+0&=25a+5b+c\\
+
+\Rightarrow 0&=25a+5b+5,
+
+\end{align*}so $5b=-25a-5$, or $b=-5a-1$. Thus, we know that \begin{align*}
+
+c&=5,\\
+
+b&=-5a-1.
+
+\end{align*}Substituting these values for $c$ and $b$ into the equation from the point $(-1,0)$ gives us $0=a-(-5a-1)+5 \Rightarrow 0=6a+6$, so $\boxed{a=-1}$.
+
+
+
+Therefore, $100a+10b+c = -100+(-50)-5=\boxed{-155}$."
+2,77,0.3542552035600469,0.02380952380952381,0.0,0.02380952380952381,0.3444750008755875,39.14073946804942,False,"To evaluate the expression, we can first simplify each cube root as follows:
+
+
+
+$\sqrt[3]{12}=\sqrt[3]{2^2\cdot 3}=2\sqrt[3]{3}$
+
+
+
+$\sqrt[3]{20}=\sqrt[3]{2^2 \cdot 5} = 2\sqrt[3]{5}$
+
+
+
+$\sqrt[3]{15}=\sqrt[3]{3\cdot5}= \sqrt[3]{3}\cdot \sqrt[3]{5}$
+
+
+
+$\sqrt[3]{60}=\sqrt[3]{2^2\cdot 3\cdot 5} = 2\sqrt[3]{3}\cdot \sqrt[3]{5}$
+
+
+
+Multiplying these expressions together, we get:
+
+
+
+$= (2\sqrt[3]{3})(2\sqrt[3]{5}) (\sqrt[3]{3}\cdot \sqrt[3]{5})(2\sqrt[3]{3} \cdot \sqrt [3]{5})$
+
+
+
+=$(2)^4(\sqrt[3]{3})^4 (\sqrt[3]{5})^4$
+
+
+
+=$16\cdot 3\cdot 5$
+
+
+
+=$\boxed{240}$"
+2,78,0.023818018163494964,0.1230769230769231,0.0,0.0923076923076923,0.061124694376528114,16.356569553715282,False,"Setting the numerators equal to each other, we have \[2x-1=x-3.\] Subtracting $x$ from both sides gives us \[x-1=-3,\] so adding 1 to both sides yields \[x=\boxed{-2}.\]"
+2,79,0.39144887654411403,0.3777777777777778,0.13636363636363635,0.3333333333333333,0.5048966928932387,51.470053193146356,True,"Setting y to zero, we get the quadratic
+
+\[-4.9t^2 - 3.5t + 2.4 = 0.\]Multiplying both sides by $-10,$ we get
+
+\[49t^2 + 35t - 24 = 0.\]Factoring this equation gives us $(7t+8)(7t-3) = 0.$ Since the time must be positive, solving for t yields $t=\frac{3}{7} \approx \boxed{0.43}$"
+2,80,0.13389893596781124,0.2635658914728682,0.14173228346456693,0.2015503875968992,0.26571383641665286,38.124795547053694,False,"Since circumference is directly proportional to radius, we can set up the following equation:
+
+
+
+$\frac{2\pi (64)}{27} = \frac{2\pi (16)}{x}$,
+
+
+
+where $x$ is the number of revolutions for the horse 16 feet from the center.
+
+
+
+We can then solve for $x$ by dividing both sides by $\frac{2\pi }{x}$, and we get
+
+
+
+$\begin{aligned} \frac{64}{27} &= \frac{16}{x} \\ x &= \frac{16 \times 27}{64}\\ &= \boxed{9}\end{aligned}$"
+2,81,0.09341058182257345,0.31060606060606055,0.10687022900763357,0.20454545454545453,0.2482795111024886,34.991680731029106,False,"To find the sum of all the multiples of 3 between 100 and 200, we can first list the multiples of 3 within this range:
+
+
+
+120, 123, 126, ..., 198
+
+
+
+We can also express these numbers as multiples of 3, with a common factor of 3:
+
+
+
+36 * 3 = 108
+
+37 * 3 = 111
+
+38 * 3 = 114
+
+...
+
+67 * 3 = 201
+
+68 * 3 = 204
+
+69 * 3 = 207
+
+
+
+The number of terms in this list is 34, since there are 34 multiples of 3 between 100 and 200. The sum of these numbers can be expressed as:
+
+
+
+(36 + 67) * (3 + 3 + ... + 3)
+
+
+
+This sum has a common factor of 3, so we can express it as:
+
+
+
+(36 + 67) * 34
+
+
+
+Now we calculate the sum within parentheses:
+
+36 + 67 = 103
+
+
+
+Then multiply that by 34:
+
+103 * 34 = 3502"
+2,82,0.1326475512839379,0.2755344418052256,0.057279236276849645,0.1472684085510689,0.36648178993094677,38.846277890891336,False,"To solve this equation, we first expand the left-hand side to get:
+
+$$(\sqrt{12x}+12)(\sqrt{3x}-6) = 12x + 36 - 6\sqrt{12x} - 72 = 12x - 36 - 6\sqrt{12x}$$
+
+
+
+Now, we can simplify the equation to:
+
+$$12x - 36 - 6\sqrt{12x} = 4(x+3)+x-34$$
+
+Expanding the right-hand side gives:
+
+$$12x - 36 - 6\sqrt{12x} = 5x + 12 - 34$$
+
+
+
+Simplifying further yields:
+
+$$12x - 36 - 6\sqrt{12x} = 5x - 22$$
+
+
+
+Subtracting $12x$ from both sides and adding $36$ to both sides gives:
+
+$$-6\sqrt{12x} = -22 + x$$
+
+Dividing by $-6$ yields:
+
+$$\sqrt{12x} = \frac{x}{6} - \frac{11}{3}$$
+
+
+
+Squaring both sides, we get:
+
+$$12x = \left(\frac{x}{6} - \frac{11}{3}\right)^2$$
+
+Expanding the right-hand side gives:
+
+$$12x = \frac{x^2}{36} - \frac{11x}{18} + \frac{121}{9}$$
+
+
+
+Multiplying both sides by $36$ yields:
+
+$$432x = x^2 - 22x + 484$$
+
+Rearranging the terms, we get:
+
+$$x^2 - 454x + 484 = 0$$
+
+
+
+This is a quadratic equation. Factoring it doesn't seem to work easily, so let's try using the quadratic formula:
+
+
+
+$$x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}$$
+
+In this case, we have $a=1$, $b=-454$ and $c=484$. Substituting these values in, we get:
+
+$$x = \frac{-(-454)\pm \sqrt{(-454)^2 - 4(1)(484)}}{2(1)}$$
+
+
+
+Simplifying, we get:
+
+$$x = \frac{454\pm \sqrt{206636-1936}}{2}$$
+
+$$x = \frac{454\pm \sqrt{205700}}{2}$$
+
+$$x = \frac{454\pm 450.7}{2}$$
+
+
+
+This gives us two solutions:
+
+
+
+$$x_1 = \frac{454+450.7}{2}=452.35$$
+
+and 
+
+$$x_2=\frac{454-450.7}{2}=1.65.$$
+
+
+
+It's worth noting that these values are approximate, but they should be close to the exact solution.
+
+
+
+We check both solutions to see which one satisfies the original equation:
+
+
+
+For $x = 452.35$, we have
+
+$$\left(\sqrt{12(452.35)}+12\right)\left(\sqrt{3(452.35)}-6\right)$$
+
+
+
+However, since $452.35$ is a decimal value that doesn't exactly satisfy the original equation when substituted back into it, we know that this solution does not work.
+
+
+
+For $x = 1.65$, substituting back into the original equation shows us that:
+
+
+
+$$(\sqrt{12(1.65)}+12)(\sqrt{3(1.65)}-6)=4((1.65)+3)+(1.65)-34$$
+
+
+
+Since both sides of this equation are equal, we can conclude that $\boxed{x=1.65}$ is the only solution to this problem."
+2,83,0.02759878321929257,0.08469055374592833,0.006557377049180328,0.05863192182410423,0.2242152466367713,12.57015040094743,False,"Since AMC10 and AMC12 are 5-digit numbers, their sum being a 6-digit number implies that we can write the sum as $$10000a+1000b+100c+10d+e+(10000m+1000n+100o+p+q),$$ where $a,d,e,m,n,o,p,q$ are digits. By looking at this, it's clear that the digit in the thousands place of each number is 1, so we can write our sum as \begin{align*} &10000a+1000b+100c+10d+e+10000m+1000n+100o+p+q\\ &= (10000 + 10000)m+(1000+1000)n+(100+100)o +(10+d)+(e+p) \\ &= 20000(m+n)+(1100+100+10)d+e+p . \end{align*} Since the digit in the hundreds place of the sum is $2$, this means that $(1100+100+10)d=2200$. Therefore, we must have $d=2$ (we can check that 1.5 and -3.5 are not both integers). We also know that the sum is a 6-digit number, so $(20000)(m+n)$ must be less than or equal to $100000$, which implies that $10 \leq m+n \leq 99$. Similarly, we can deduce from the digit in the tens place of the sum that $(1100+100)e+(1100+100)p=1200$ and therefore $e+p=1$. Combining these two equations yields a system of four linear equations in three unknowns:
+
+\begin{align*} (1100+100)d&=2200\\ (20000)(m+n)&\leq 100000\\ (1100+100)e+(1100+100)p&=1200\\ e+p &=1 \end{align*}
+
+We can easily solve for $d,e,$ and $p$ in the first three equations:
+
+\begin{align*} d&=2, &e+p&=1 \\ 2200&=2200 & e&=\frac{1200-1100(1)}{100}\\ p &= \frac{1-(e+1) (100)}{100}. \end{align*}
+
+Since $d$ is a digit, the only possible values for $(m,n)$ are $\{10, 11\}, \{9, 12\}$. Substituting these into our equation for $20000(m+n)$ gives
+
+$$110000 \text{ and } 121000.$$
+
+Our original number must be greater than or equal to $100000$ and less than $123422$, so the only possible value is $110000+11111=\boxed{123111}$.
+
+We know that $$A + M + C = a+b+c$$ since we found values for each of those variables in our previous solution. Substituting gives us \begin{align*} A+M+C &= 1+1+1\\ &=\boxed{3}. \end{align*}"
+2,84,0.10323907067465102,0.25396825396825395,0.09836065573770493,0.1904761904761905,0.636463609704079,48.05758261347779,False,"If a recipe requires $\frac{1}{4}$ teaspoon of salt for each quart of water, then to get $2$ teaspoons, we can multiply the amount of water by $8$. So $\frac{1}{4} \cdot 8 = 2.$ Therefore, two teaspoons of salt will be used with $\boxed{2}$ quarts of water."
+2,85,0.9169772785972178,0.6666666666666667,0.631578947368421,0.6666666666666667,0.8328208515549076,100.0,True,"From the defined function, we know that $3\ast10=2(3)+5(10)-(3)(10)=6+50-30=\boxed{26}$."
+2,86,0.0287952975913148,0.2156862745098039,0.07999999999999999,0.13725490196078433,0.36249014972419225,27.620091126284958,False,"Let's calculate a few more terms in the sequence:
+
+
+
+The sequence starts: $0, 1, 1, 3, 6, 9, 27, ...$
+
+
+
+We have:
+
+$T_1=0$
+
+$T_2=T_1+1=0+1=1$
+
+$T_3=T_2\cdot1=1\cdot1=1$
+
+$T_4=T_3+2=1+2=3$
+
+$T_5=T_4\cdot3=3\cdot3=9$
+
+$T_6=T_5+4=9+4=13$
+
+$T_7=T_6\cdot5=13\cdot5=65$
+
+$T_8=T_7+6=65+6=71$
+
+$T_9=T_8\cdot7=71\cdot7=497$
+
+
+
+We see that $T_7<125$, but $T_9>125$.  Since the terms in the sequence are increasing, every term after $T_8$ will be greater than 125.
+
+
+
+Therefore, the first term greater than 125 is $\boxed{T_9=497}$"
+2,87,0.16377871493148718,0.06896551724137931,0.0,0.06896551724137931,0.2094240837696335,21.03503510650599,False,"Since $1<2$ and $2^0=1$, but $2^1>1$, there is no value of x such that $2^x=1$. Therefore, the logarithm does not exist."
+2,88,0.5674947230457948,0.7654320987654322,0.6075949367088608,0.7654320987654322,0.7847530369148208,75.24642688831324,True,"We know that the product of the solutions of this quadratic is -36/1=-36, so the other solution must be -36/-4=9. That means that the sum of the solutions is -4+9=5. The sum of the solutions is also -b/1=-b. Thus, -b=5 and b=\boxed{-5}."
+2,89,0.14382633862266667,0.2328767123287671,0.05555555555555556,0.136986301369863,0.2654210085040125,32.15246367418924,True,"Let's start by writing down the two equations:
+
+
+
+1) $2d = 17e - 8$
+
+
+
+2) $2e = d - 9$
+
+
+
+We can solve for $d$ in equation (2):
+
+
+
+$d = 2e + 9$
+
+
+
+Now, substitute this expression for $d$ into equation (1):
+
+
+
+$2(2e + 9) = 17e - 8$
+
+
+
+Expand and simplify:
+
+
+
+$4e + 18 = 17e - 8$
+
+
+
+Subtract $4e$ from both sides:
+
+
+
+$18 = 13e - 8$
+
+
+
+Add $8$ to both sides:
+
+
+
+$26 = 13e$
+
+
+
+Divide by $13$:
+
+
+
+$\frac{26}{13} = e$
+
+
+
+So, the value of $e$ is $\boxed{\frac{26}{13}}$, which simplifies to $2$."
+2,90,0.29412250676024776,0.41666666666666663,0.1702127659574468,0.27083333333333337,0.6217090997952537,54.422341259345274,True,"We start by completing the square: \begin{align*}
+
+x^2-6x+13&=(x^2-6x)+(13)\\
+
+&= (x^2-6x+9)-9+(13)\\
+
+&=(x-3)^2 - 9 +13\\
+
+&=(x-3)^2 +4.
+
+\end{align*}Since the square of an integer is a perfect square, $(x-3)^2$ must be nonnegative. Thus, we can see that the minimum value of $x^2-6x+13$ occurs when $(x-3)^2=0$, i.e., when $x=\boxed{3}$.
+
+
+
+Therefore, the smallest possible value for the expression is $\boxed{4}.$"
+2,91,0.04562498224210957,0.2551440329218107,0.04149377593360996,0.18106995884773663,0.33900071546474225,25.934387724015632,False,"Call the two consecutive even numbers $2n$ and $2(n+1)$. We are given that $(2n)^2 - (2(n+1))^2 = 60$, or $4n^2 - 4(n+1)^2 = 60$. Expanding this equation, we see that $-8n - 8 = 60$; so $n=-\frac{68}{8}=-\frac{17}{2}$, which is not positive. Therefore the two numbers are not integers.
+
+
+
+But notice that $(2n)^2 - (2(n+1))^2 = [(2n) + (2(n+1))][(2n) - (2(n+1))]$. Since we know $[(2n) + (2(n+1))] = 4n + 4$, and $[2n-2(n+1)] = -4$; that implies $(2n)^2 - (2(n+1))^2 = 4[n + (n+1)] \cdot (-4)$.
+
+
+
+We know the difference of their squares is equal to 60. That means that $(2n) ^2 - (2(n+1))^2 = 60$. Therefore, we have $-16[n+(n+1)] = 60$; so $[n + (n+1)] = \frac{-60}{-16}=\frac{15}{4}=3\frac{3}{4}$.
+
+
+
+Since the two numbers are consecutive even integers, that implies $2n=2(3\frac{3}{4})$, or $n=\frac{11}{2}$. That also implies that $(n+1)=\frac{13}{2}$. Therefore we can write:
+
+
+
+$(2n) = 2(\frac{11}{2})=11$
+
+and
+
+$[(2(n+1))] = 2(3\frac{3}{4})=11$
+
+
+
+Then, the original two numbers are $11$ and $9$, so that $(2n)+(2(n+1)) = (11) + (9)=20$. That also implies $\boxed{(2n)+(2(n+1)) = 20}$"
+2,92,0.0031001031007089922,0.11538461538461538,0.01941747572815534,0.0673076923076923,0.08902855784800358,8.528413785613157,False,"If we set up two equations based on the problem statement, $$p + q = pq$$ and $$pq - p - q = 7,$$ then we can add these to get \[pq - p - q + p + q = pq + p + q - p - q = (pq) - (p+q) + (p+q),\]and we simplify both sides of the equation: $$pq + p + q - 7 = (pq) - (p+q) + (p+q).$$ We can then factor out $$(pq) - (p+q):$$."
+2,93,0.6050118331621932,0.07407407407407407,0.0,0.07407407407407407,0.5752991408396814,40.85560168245805,True,"If $f(1)=2$, $f(2)=6$, and $f(3)=5$, then $f^{-1}(2)=1$, $f^{-1}(6) = 2$, and $f^{-1}(5) = 3$. Therefore, $$f^{-1}(f^{-1}(6))= f^{-1}(2)= \boxed{1}.$$"
+2,94,0.18637989920287631,0.07339449541284404,0.009259259259259259,0.06422018348623854,0.36157932958758554,37.95474742219611,False,"Since we are given that the average of $a$ and $2b$ is 7, we have that $\frac{a + 2b}{2} = 7$, so $a + 2b = 14$. Similarly, since the average of $a$ and $2c$ is 8, we have that $\frac{a + 2c}{2} = 8$, so $a + 2c = 16$. Subtracting these two equations gives us $2c - 2b = 2$, or equivalently, $c - b = 1$. We can solve for $b$ in terms of $c$: $b = c-1$. If we substitute this into the first equation, we get that $a + (2)(c-1) = 14$. Expanding and rearranging gives us $a=16-c$, so when we average this along with our expression for b in terms of c we can see that \begin{align*}
+
+\frac{a+b+c}{3}&=\frac{(16-c)+(c-1)+c}{3}\\
+
+&=\frac{15+c}{3} 
+
+\end{align*}We are given that the average is $8$, so $\frac{15+c}{3}=8$. Solving for c, we get $c=9$ and then $b = 8$. Substituting these into our equations gives us $a + 2b = a+16=14$ and $a + 2c = a +18 = 16$, so $a= -2$. Therefore the average of integers $a$, $b$, and $c$ is $\frac{8}{3}=\boxed{\frac89}$."
+2,95,0.62131025214268,0.3243243243243243,0.22857142857142856,0.3243243243243243,0.3904816513761467,62.08147833286115,True,"$\frac{2s^5}{s^3} - 6s^2 + \frac{7s^3}{s}$ =
+
+$2s^{5-3}-6s^2+7s^{3-1}$.
+
+This is $2s^2 - 6s^2 + 7s^2$, which equals $\boxed{3s^2}$."
+2,96,0.09314311817966485,0.097323600973236,0.029339853300733496,0.07299270072992702,0.32827148853097304,23.696370812214106,False,"## Step 1: Let's denote the first term of the original infinite geometric series as $a$ and the common ratio as $r$.
+
+We know that for an infinite geometric series, the sum is given by $\frac{a}{1-r}$.
+
+
+
+## Step 2: According to the problem, the sum of the original series is 2000, so we have the equation:
+
+$\frac{a}{1-r} = 2000$
+
+
+
+## Step 3: The new series obtained by squaring each term of the original series also forms an infinite geometric series.
+
+Let's denote the common ratio of this new series as $r^2$, since each term is squared.
+
+
+
+## Step 4: We know that the sum of this new series is 16 times the sum of the original series, which gives us:
+
+$\frac{a^2}{1-r^2} = 16 \cdot 2000$
+
+
+
+## Step 5: Now we have two equations involving $a$ and $r$: $\frac{a}{1-r} = 2000$ and $\frac{a^2}{1-r^2} = 32000$.
+
+We can manipulate these equations to solve for the common ratio $r$.
+
+
+
+## Step 6: We can express $a$ in terms of $r$ from the first equation as $a = 2000(1-r)$ and substitute this into the second equation:
+
+$\frac{[2000(1-r)]^2}{1-r^2} = 32000$
+
+
+
+## Step 7: Simplifying the equation gives us:
+
+$\frac{4000000 - 8000000r + 4000000r^2}{1-r^2} = 32000$
+
+
+
+## Step 8: Further simplification leads to:
+
+$4000000 - 8000000r + 4000000r^2 = 32000(1-r^2)$
+
+
+
+## Step 9: Expanding and rearranging terms, we get a quadratic equation in terms of $r^2$:
+
+$4000000r^2 - 8000000r + (16000160 - 32000) = 0$
+
+
+
+## Step 10: This simplifies to:
+
+$4000000r^2 - 8000000r + 1569760 = 0$
+
+
+
+## Step 11: Dividing the entire equation by $4000000$, we get:
+
+$r^2 - 2r + \frac{389}{400} = 0$
+
+
+
+## Step 12: Now, using the quadratic formula to solve for $r$:
+
+$r = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$
+
+
+
+## Step 13: Substituting the values of $a$, $b$, and $c$ into the quadratic formula gives us:
+
+$r = \frac{2 \pm \sqrt{(-2)^2 - 4(1)(\frac{389}{400})}}{2}$
+
+
+
+## Step 14: Solving for $r$ yields two possible values, but we discard the complex solution since the common ratio must be a real number between $-1$ and $1$.
+
+
+
+## Step 15: After solving for the common ratio, we need to add the numerator and denominator of the obtained fraction to find the sum of $m$ and $n$.
+
+
+
+
+
+The final answer is: $\boxed{13}$"
+2,97,0.12833678421694172,0.31506849315068497,0.06944444444444443,0.1917808219178082,0.41899236021337266,42.35784456340186,False,"Since there were originally 12 people and they would split a day's supply among themselves, that means the total supply was $12 \cdot 10 = 120$ units.
+
+
+
+Now, with 15 people, the daily supply per person is $\frac{120}{15}=\frac{24}{3}=8.$
+
+
+
+Since there are now 15 people and they split a day's supplies among themselves, that means the total supply was $120.$ Thus, the number of days the supplies will last is $\boxed{15}$.
+
+
+
+This answer would also be true if we had instead said that the 12 original people were not going to buy more supplies."
+2,98,0.1299649015951202,0.3255813953488372,0.04761904761904762,0.1627906976744186,0.3909724329345364,39.3897889363301,False,"We can use the formula for the nth term of an arithmetic sequence: a_n = a_1 + (n - 1)d. Here we have a_1 = 13 and d = 7.
+
+
+
+The last term is 2008. So, a_n = 2008
+
+=> 13+7(n-1)=2008
+
+=> 7n=1996
+
+=> n=284
+
+
+
+So there are $\boxed{285}$ terms in the sequence."
+2,99,0.27305575014624317,0.33449477351916374,0.07017543859649122,0.1951219512195122,0.32293016858535045,39.65537081940908,False,"To find out which of these points does not lie on the line containing $2, 9,$ and $11$, we can use two-point slopes or slope-intercept form to determine the equation of the line that contains those three points.
+
+
+
+The slope between $(2,2)$ and $(9,11)$ is given by $\dfrac{11-2}{9-2}=\dfrac{9}{7}$.
+
+
+
+The slope between $(2,2)$ and $(5,7)$ is given by $\dfrac{7-2}{5-2}=\dfrac{5}{3}$.
+
+
+
+The slope between $(2,2)$ and $(11,17)$ is given by $\dfrac{17-2}{11-2}=\dfrac{15}{9}=\dfrac{5}{3}$.
+
+
+
+Since the two slopes are equal, we can conclude that the line contains points $(2,2), (5,7),$ and $(11,17).$ The only point left to examine is $(9,11)$.
+
+
+
+The slope between $(5,7)$ and $(11,17)$ is $\dfrac{17-7}{11-5}=\dfrac{10}{6}=\dfrac{5}{3}$.
+
+
+
+Since the slopes are equal, it follows that $(2,2), (5,7),$ and $(11,17)$ all lie on one line. However, since we know the slope is $\dfrac{9}{7},$ we can find $k$ by substituting in two of our points into the equation:
+
+
+
+$$y-y_1=m(x-x_1)\\
+
+\Rightarrow \qquad 11-7=\dfrac{9}{7}\left(9-2\right)\text{, or}\\
+
+\Rightarrow \qquad k=4.$$
+
+
+
+Therefore, $(k,k)=(\boxed{4},\boxed{4})$ is the point that does not lie on the line."
+2,100,0.12801239427849684,0.1888888888888889,0.033707865168539325,0.1111111111111111,0.23312160147344982,21.092961455722335,False,"To evaluate g(3), we first need to find f^{-1}(3). To do this, let u = f(x) and solve for x. We get:
+
+
+
+u = (x + 5)/3
+
+3u = x + 5
+
+3u - 5 = x
+
+
+
+So f(x) = (x + 5)/3 is equivalent to x = 3u - 5.
+
+
+
+Now we can substitute this value of x into the equation for g(x):
+
+
+
+g(3) = 1/(f^{-1}(3)+1)
+
+= 1/((3u-5)+1)
+
+= 1/(3u-4)
+
+
+
+Since u = f(3), then:
+
+
+
+f(3) = (3 + 5)/3
+
+f(3) = 8/3
+
+
+
+So, we have g(3) = 1 / ((8/3)-4).
+
+
+
+We need to get a common denominator on the denominator of g(3). 
+
+
+
+g(3) = 1 / (8/3 - 12/3)
+
+= 1 / (-4/3)
+
+= 3/(-4)
+
+= -(3/4)
+
+
+
+Thus, g(3) is equal to -(3/4).
+
+
+
+So, g(3) = -3/4."

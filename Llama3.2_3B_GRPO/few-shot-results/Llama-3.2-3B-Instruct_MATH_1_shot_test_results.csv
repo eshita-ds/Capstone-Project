@@ -1,0 +1,3887 @@
+dataset_id,question_id,bleu,rouge1,rouge2,rougeL,meteor,chrf,correct,response
+2,1,0.23267909138337456,0.3,0.0847457627118644,0.18333333333333332,0.499672163940256,53.16234292690232,False,"To find the number of vertical asymptotes, we need to examine the behavior of the denominator.
+
+
+
+The denominator can be factored as:
+
+
+
+$$x^2 + x - 6 = (x+3)(x-2)$$
+
+
+
+Since there are no factors of 2 in the denominator that would cancel out a factor of 2 in the numerator, all values of $x$ that make the denominator equal to zero will result in a vertical asymptote.
+
+
+
+Therefore, the equation has two vertical asymptotes at $x=-3$ and $x=2$."
+2,2,0.2847311046696151,0.4,0.2916666666666667,0.4,0.5570973312221763,49.77183071204733,True,"We have:
+
+
+
+$120\%$ of 30 is equal to $\frac{120}{100}\cdot30=36$
+
+
+
+and $130\%$ of 20 is equal to $\frac{130}{100}\cdot20=26.$ Therefore, the positive difference between them is:
+
+
+
+$\begin{align*}36-26&=\boxed{10}. \end{align*}$"
+2,3,0.2381235449020186,0.20689655172413793,0.05263157894736842,0.15517241379310345,0.31641780041285095,34.21282800374527,False,"Let's denote $n=\lceil x\rceil.$ We have $\lceil x\rceil+x=\frac{23}{7}.$
+
+
+
+Since $n=x$ is an integer, we can subtract it from both sides of the equation to obtain:
+
+
+
+$$\left(n-x\right)+x=\frac{23}{7}-n.$$Simplifying this gives us $$2x=3-\frac{6}{7}= \frac{21-6}{7} = \frac{15}{7},$$so $x=\frac{15}{14}$.
+
+
+
+Therefore, the solution is $\boxed{\frac{15}{14}}.$"
+2,4,0.6276843099149595,0.64,0.48979591836734687,0.5800000000000001,0.5768539024863045,68.51668596439163,False,"We have $i^5 = i^4\cdot i = 1\cdot i = i$, $i^{-25} = 1/i^{25}= 1/(i^{24}\cdot i) = 1/[1\cdot i] = -i$ and, we also have $i^{45} = (i^4)^{11} \cdot i=1^{11}\cdot i=i$. So, adding these three results gives $i^5 + i^{-25} + i^{45}= i-(-i)+i= 3i$."
+2,5,0.28614908196957667,0.14545454545454545,0.0,0.10909090909090907,0.5455529473135107,36.0705938265227,True,"We can express 4 as $2^2$. So our equation becomes:
+
+
+
+$$2^8=(2^2)^x$$
+
+
+
+Using the power rule for exponents, we have:
+
+
+
+$$2^8=2^{2x}$$
+
+
+
+Since the bases are equal, we equate the exponents to solve for x:
+
+
+
+$$8=2x$$
+
+
+
+Dividing by 2 gives us:
+
+
+
+$$x=\boxed{4}$$"
+2,6,0.0,0.18867924528301885,0.05769230769230769,0.169811320754717,0.31574554896142437,30.722761743508624,True,"To find the 100th term of an arithmetic sequence, you can use the formula:
+
+
+
+an = a1 + (n - 1)d
+
+
+
+where:
+
+- a1 is the first term (in this case, 6)
+
+- n is the term number we want to find (in this case, 100)
+
+- d is the common difference (in this case, 4)
+
+
+
+Plugging in these values, you get:
+
+
+
+a100 = 6 + (100 - 1)4
+
+= 6 + 99 * 4
+
+= 6 + 396
+
+= 402
+
+
+
+So, the 100th term of the sequence is 402."
+2,7,0.12386109408815074,0.16346153846153846,0.058252427184466014,0.07692307692307693,0.44462404047723003,28.23782469198637,True,"To solve this problem, we need to isolate the quadratic expression by subtracting 10 from both sides:
+
+
+
+$$x^2-5x-4\leq 10$$
+
+$$x^2-5x-14\leq0.$$
+
+
+
+Now that the inequality is in the form of a quadratic function less than or equal to zero, we can factorize it and set the factored expression equal to zero to find its roots:
+
+
+
+$$(x-7)(x+2)\leq 0$$
+
+$$x = -2, x=7.$$
+
+
+
+Since we have two distinct real roots, we know that the quadratic function is negative between them. To determine which interval satisfies this condition, let's pick a test point within each interval and see if it makes the expression positive or negative.
+
+
+
+We can choose $-3$ as a test point within the interval $(-\infty,-2)$.
+
+$$(x - 7)(x + 2) = (-3-7)(-3+2)=(-10)(-1)=10$$
+
+This is greater than zero, so our solution interval must be between $x=-2$ and $x=7$.
+
+
+
+The inequality also holds at the endpoints of this interval. Therefore, in interval notation, the values of x for which $x^2 - 5x - 4 \leq 10$ are $\boxed{[-2,7]}$."
+2,8,0.15794486318515974,0.19277108433734938,0.036585365853658534,0.10843373493975904,0.4617930204572804,42.12578107564394,True,"We can solve this problem using the formula for compound interest: $$A = P(1 + r)^t.$$ In this case, $P = 1000$ and $A = 1225$, so we have:
+
+
+
+$$1225 = 1000 (1 + r)^3.$$
+
+
+
+To find the value of $r$, we can divide both sides by $1000$:
+
+
+
+$$\frac{1225}{1000}=(1+r)^3.$$ Then, take the cube root of each side:
+
+
+
+$$\left(\frac{1225}{1000}\right)^{\frac{1}{3}}=1+r.$$
+
+
+
+Now, subtract 1 from both sides to solve for $r$:
+
+
+
+$$\left(\frac{1225}{1000}\right)^{\frac{1}{3}}-1=r.$$ This gives us a value of $\sqrt[3]{1.225}=1.073$ (which is approximately equal to the cube root of 1.225). 
+
+
+
+To find $r$, subtract 1 from this number: $$\left(\frac{1225}{1000}\right)^{\frac{1}{3}}-1 \approx .073$$ This number, rounded to the nearest integer, gives an annual interest rate of $\boxed{7}$."
+2,9,0.20584014169516418,0.20606060606060603,0.024390243902439025,0.11515151515151514,0.2879253068886445,28.218167779420057,False,"We can pair up the numbers into two groups such that one number is used twice and the other three numbers are each used once. The given sums will be: $$(a+d, b+c) = 10$$
+
+$$(a+b, c+d) = 18$$
+
+$$(b+c, d+a) = 19$$
+
+$$(c+d, a+b) = 20$$
+
+$$(d+a, b+c) = 21$$
+
+$$(a+c, b+d) = 29$$
+
+
+
+If $x=a+d$, then $10-x=b+c$ and if $y=b+c$, then $18-y=c+d$. This implies that $19-c=y-c=27$ so $c=19-2y$.
+
+
+
+Similarly we find
+
+$$a+19-3y=d$$
+
+and 
+
+$$d+a=29$$
+
+
+
+This gives us the following expression for $c$
+
+\begin{align*}19-2y-(19-3y)+&amp;a+d\\ \Rightarrow  y-a-d=&amp;1\\ \Rightarrow a&amp;=\frac{-y-d+1}{-1}\\ d&amp;=\frac{y+a-1}{-1}\end{align*}, Substituting this into the expression for $c$ we get
+
+\begin{align*}19-2y-(19-3y)+(a+d)&amp;=29\\ 27+3y+y-2y-y-1&amp;=29\\ y&amp;=\frac{-5}{4}\\ \end{align*}, This gives us the following expression for $c$
+
+\begin{align*} c = 19-2(\frac{-5}{4})\\ &amp;=\frac{43}{2}\end{align*}, Similarly we find
+
+\begin{align*} a=\frac{\frac{-5}{4}-d+1}{-1}\\ d=\frac{\frac{-5}{4}+a-1}{-1}\end{align*}. Thus, if $y=a+d$ and $x=b+c$, then:
+
+$$b+c=y=29-a-d=\frac{39}{2}-\frac{11}{4}=19.25$$
+
+$$b= \frac{y-a-1}{3} = 10 - a +d.$$"
+2,10,0.10310761978327944,0.10909090909090909,0.0,0.0909090909090909,0.12801204819277107,29.56770772971059,True,"Let's start by writing an equation for the absolute values:
+
+
+
+|5x - 1| = |3x + 2|
+
+
+
+This can be split into two separate equations:
+
+
+
+5x - 1 = 3x + 2 and 5x - 1 = -(3x + 2)
+
+
+
+For the first equation, we have:
+
+5x - 1 = 3x + 2
+
+2x = 3
+
+x = 3/2
+
+
+
+For the second equation, we have:
+
+5x - 1 = -3x - 2
+
+8x = -1
+
+x = -1/8
+
+
+
+The smallest value of x is therefore -1/8."
+2,11,0.2038018263985409,0.23529411764705882,0.024096385542168672,0.18823529411764706,0.3524978193182409,29.89129775939905,False,"We have that \begin{align*}
+
+h(x)&amp;=f(g(x))\\
+
+&amp;=f(x-1)\\
+
+&amp;=(x-1)+5\\
+
+&amp;=x+4.
+
+\end{align*}Now, to find $h^{-1}(y)$, we solve the equation $y=x+4$ for $x$, giving \begin{align*}
+
+y&amp;=x+4\\
+
+\Rightarrow\qquad x&amp;=y-4\\
+
+\Rightarrow\qquad h^{-1}(y)&amp;=\boxed{y-4}.
+
+\end{align*}Therefore, the inverse of $h(x)$ is $\boxed{x\mapsto x-4}$.
+
+Alternatively, you can let $y=x+4$ and solve for $x$, which yields the same answer."
+2,12,0.20332170160439636,0.3,0.0808080808080808,0.19000000000000003,0.2840048753462604,33.54136915109922,False,"First, note that if $|x|+1 > 7$ then $|x| > 6$, so $x< -3$ or $x>3$.  Second, since $|x+1|\leq 7$, we know that $-8 \leq x+1\leq 7$, which implies that $-9 \leq x \leq 6$.
+
+
+
+Therefore, the numbers $x$ satisfying both inequalities are in the range $(-9,-3)$ and $(3,6)$.  Since these ranges consist of consecutive integers starting at $-8$ and ending at $5$, we can calculate that there are $\boxed{7}$ solutions: $-8, -7, -6, -5, -4, -3,$ and $4.$"
+2,13,0.253877613924762,0.21739130434782608,0.09090909090909093,0.21739130434782608,0.4692760942760943,54.3597569246341,True,"Using the distance formula:
+
+
+
+$$d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$
+
+
+
+where $(x_1,y_1)=(0,0)$ and $(x_2,y_2)=(-8,6)$.
+
+
+
+$d = \sqrt{((-8)-0)^2 + (6-0)^2}$
+
+
+
+$d=\sqrt{64+36}$
+
+
+
+$d=\sqrt{100}=10$
+
+
+
+The distance from the origin to the point $(-8,6)$ is $\boxed{10}$."
+2,14,0.14750059543261346,0.4166666666666667,0.17391304347826086,0.2916666666666667,0.25382351522169155,38.33696979292446,True,"To find the midpoint, we average the x-coordinates and the y-coordinates:
+
+
+
+Midpoint = ((1+1)/2, (4+10)/2)
+
+= (1, 7)
+
+
+
+The sum of the coordinates of the midpoint is 1 + 7 = 8."
+2,15,0.2692070455610007,0.2714932126696833,0.1278538812785388,0.1990950226244344,0.3874483876888997,50.21464988366059,True,"To find the area of kite $ABCD$, we can start by determining the lengths of its diagonals. One diagonal is given as $AC$, so we need to find the length of this diagonal.
+
+
+
+Using the distance formula, we have that \begin{align*}
+
+\overline{AC}&=\sqrt{(12-0)^2+(-2-7)^2}\\
+
+&=\sqrt{144+81} \\
+
+&=15
+
+\end{align*}, so $AC = 15$. The other diagonal is $BD$, so we need to find the length of this diagonal.
+
+
+
+Using the distance formula, we have that \begin{align*}
+
+\overline{BD}&=\sqrt{(7-1)^2+(8-0)^2}\\
+
+&=\sqrt{36+64} \\
+
+&=10.
+
+\end{align*}, so $BD = 10$. Now that we know the lengths of both diagonals, we can use the fact that a kite has two pairs of equal sides to find its area. The formula for the area of a kite is given by \[A = \frac12d_1 d_2,\] where $d_1$ and $d_2$ are the lengths of the diagonals.
+
+
+
+Therefore, we have that $$\text{Area}=\frac12(15)(10)=75$$ square units."
+2,16,0.009814488431006877,0.14285714285714285,0.014492753623188403,0.08571428571428572,0.1140231437447082,16.963457847662834,False,"The expression under the square root must be non-negative, so $(x - 3)^2 - (x - 8)^2\ge0$.
+
+
+
+Expanding and simplifying this inequality yields $6(x - 8) \ge 0$, or $x \ge 8$."
+2,17,0.6378843285661613,0.7999999999999999,0.7368421052631579,0.7999999999999999,0.9166260539012622,92.6355381852433,True,"Because $-10 < -3$, we use the first case to determine that $f(-10) = 3(-10) + 5 = \boxed{-30+5} = \boxed{-25}$.
+
+
+
+So, $f(-10)=-25$."
+2,18,0.2802775750091944,0.15841584158415845,0.0202020202020202,0.07920792079207922,0.4398320213382494,44.23521423190325,False,"From $\frac{A\sqrt{B}}{C} = \frac{9}{2\sqrt{3}}$, we see that
+
+$$\frac{\sqrt{B}}{C}=\frac{9}{2\cdot 2\sqrt{3}}=\frac{9}{4\sqrt{3}}.$$
+
+Therefore, $A=9/2$, but $A$ is an integer, so this must be some factorization of the fraction $\frac{\sqrt{B}}{C}$.  It follows that $$\frac{\sqrt{B}}{C}=\frac{\sqrt{B}}{2}.$$ This means that either $C=1$ or $2^3 =8$, which implies that $A=9/2$, but then $B=0$, so $A$ is not an integer.
+
+
+
+Therefore, $C=2$.  Then $\sqrt{B}/1=\frac{\sqrt{B}}{2}.$ Thus, $$\frac{\sqrt{B}}{2}=3.$$ Therefore, $B =18,$ and the values of A, B, C are 9, 18, 2.
+
+
+
+Thus $A+B+C$ is $\boxed{29}$"
+2,19,0.17644531663549654,0.3274853801169591,0.11834319526627218,0.26900584795321636,0.3126088891033167,39.51924821151669,False,"Let $t$ be the weight of a treek, $s$ be the weight of a squig, and $g$ be the weight of a goolee.
+
+
+
+We are given that $10t=3s+g$, and we also know that $2t+g=s$. We can multiply this second equation by 3 to get $6t+3g=3s$.
+
+
+
+Now we can substitute $3s=(6t+3g)$ into the first equation:
+
+
+
+$$10t = (6t + 3g) + g \Rightarrow 4t = 4g \Rightarrow t=g.$$
+
+
+
+Since $2t+g=s$, we have that
+
+
+
+$$t+t=g \Rightarrow s=2t.$$
+
+
+
+We are asked to find how many treeks equal the weight of one squig, which is $\boxed{2}$"
+2,20,0.08004880664886752,0.32653061224489793,0.15172413793103448,0.2040816326530612,0.28402234636871504,37.624947955318426,False,"Since the problem asks for the number of calories in a 12 fluid-ounce bottle, we need to find the ratio of calories per ounce in the 8 fluid-ounce bottle and then multiply it by 12.
+
+
+
+In the 8 fluid-ounce bottle, there are 125 calories, so the number of calories per ounce is:
+
+
+
+125 calories / 8 ounces = 15.625 calories/ounce
+
+
+
+Now, we can multiply this ratio by 12 to find the total number of calories in a 12 fluid-ounce bottle:
+
+
+
+15.625 calories/ounce x 12 ounces = 187.5 calories
+
+
+
+Therefore, there would be approximately 187.5 calories in a 12 fluid-ounce bottle of Vitamin Water."
+2,21,0.0661903952477903,0.20353982300884957,0.044642857142857144,0.15044247787610618,0.2222668414850593,20.566643606939003,False,"If the two roots are equal, then they must be equal to 3 and 3. This gives a sum of $6$ with a product of $9.$
+
+If one root is $2$ and the other root is $5,$ we get a sum of $7$ and a product of $10.$
+
+If one root is $3$ and the other root is $11$, we get a sum of $14$ and a product of $33.$
+
+If one root is $5$ and the other root is $7$, we get a sum of $12$ and a product of $35.$
+
+Therefore, there are $\boxed{4}$ possible values for $n$."
+2,22,0.06298364482645154,0.24000000000000002,0.06122448979591836,0.13999999999999999,0.3974563054932083,30.075679813301846,True,"Let $n$ denote the number of times the price is doubled. Therefore, the price after $3n + 9$ years will be $(1.25)2^n$. Mike was just offered $\$2.50$, so we have
+
+
+
+\begin{align*}
+
+(1.25)2^n &amp;= 2.50\\
+
+2^n &amp;=\frac{2.50}{1.25} \\
+
+n &amp; = \log_2 2.
+
+\end{align*}
+
+
+
+We now have that $n = 1$ and the price of the stamp after $12$ more years is $(1.25)2^{1+4}$. Then, since $2^5=32$, we have
+
+
+
+$$
+
+(1.25)(32)=40.
+
+$$"
+2,23,0.05509670003933925,0.07633587786259542,0.015503875968992248,0.061068702290076333,0.2976443005470581,20.11820726019427,False,"To solve this problem, we can start by evaluating the left side of the equation:
+
+
+
+\begin{align*}
+
+(17^6 - 17^5) &amp; \div 16 \\
+
+= (17^5)(17-1)/16\\
+
+=\frac{(17^{6}-17^{5})}{16}\\
+
+= \frac{17^{6}-17^{5}}{2^{4}}
+
+\end{align*}
+
+
+
+Now, we can use the difference of powers factorization formula to rewrite the numerator as a product:
+
+
+
+$$17^6 - 17^5 = 17^5(17-1)$$
+
+
+
+Substituting this back into our previous expression, we have:
+
+
+
+$$\frac{(17^{6}-17^{5})}{2^{4}}=\frac{17^5(17-1)}{2^{4}}=17^5 \cdot \left(\frac{16}{2}\right)= 2^5\cdot17^5.$$
+
+
+
+Comparing this to the expression on the right side of our original equation, we see that $2^5\cdot17^5 = 17^x$.
+
+
+
+Since both sides of the equation have been simplified to be equal, we can set the exponents equal to each other:
+
+
+
+$$x=5+1=\boxed{6}.$$
+
+
+
+Therefore, the value of x in the given equation is 6."
+2,24,0.9877302162356105,0.9772727272727273,0.9767441860465116,0.9772727272727273,0.986741416023423,99.66706600994618,True,"Since the pressure $p$ of the hydrogen and the volume $v$ are inversely proportional, $pv=k$ for some constant $k$. From the first container, we know that $k=3.67\cdot4=14.68$. Consequently, when we move it to the 1.835 liter container, we get that $1.835p=14.68$, so $p=\boxed{8}$ kPa"
+2,25,1.0,1.0,1.0,1.0,0.9999832164076399,100.0,True,"The given expression equals $a^{3+2}=a^5$. Plugging in the value of $a$, the expression equals $5^5=\boxed{3125}$."
+2,26,0.10661537810068997,0.1686746987951807,0.06097560975609756,0.12048192771084336,0.3824236740115757,29.452434634359676,False,"Since $x^2 \ge 0$ for any $x$, we have $\sqrt{x^2} \ge 0.$ Thus, the range of $f$ is a subset of the set of nonnegative real numbers.
+
+
+
+To show that it's exactly this set, let's take an arbitrary positive real number $a$. Then, there exists some nonzero real number $x$ such that $x^2 = a$, since the square of any nonzero real number is positive. Therefore,
+
+
+
+$$f(x) = \sqrt{x^2} = \sqrt{a},$$so $\sqrt{a}$ is in the range of $f$. This shows that every nonnegative real number is in the range of $f$.
+
+
+
+To show that it's exactly this set, note that $x^2 \ge 0$ for all real numbers $x$, so $f(x) = \sqrt{x^2} = x$ if and only if $x \ge 0$. This shows that any nonzero real number is not in the range of $f$."
+2,27,0.4031288127060167,0.5666666666666667,0.5084745762711865,0.55,0.7320825317493374,76.03649441123423,True,"Expanding the left side of the given equation, we have:
+
+
+
+$$(2x+5)(x-3) = 2x^2 - 6x + 5x - 15$$
+
+$$= 2x^2 - x - 15$$
+
+
+
+Equating this to 14:
+
+
+
+$$2x^2 - x - 15 = 14$$
+
+
+
+Moving all terms to one side of the equation:
+
+
+
+$$2x^2 - x - 29 = 0$$
+
+
+
+Since in a quadratic with equation of the form $ax^2+bx+c=0$, the sum of the roots is $-b/a$, the sum of the roots of this equation is $-(-1)/2=\boxed{\frac{1}{2}}$."
+2,28,0.05683553183742437,0.328042328042328,0.11764705882352941,0.20105820105820107,0.3783127075981608,36.27880059524393,False,"In order for the equation to have two real roots, its discriminant must be greater than zero. So we have \begin{align*}
+
+(-7)^2-4(1)(c)&>0\quad\Rightarrow\\
+
+49-4c&>0\quad\Rightarrow\\
+
+-4c&>-49\quad\Rightarrow\\
+
+c&<\frac{-49}{4}=-12.25.
+
+\end{align*}Since $c$ must be a positive integer, we have $1 \le c < 12.25$. We can check the values from $1$ to $12$ inclusive: \begin{tabular}{ccccc}
+
+$c=1$: &$(7)^2-4(1)(1)=49-4&<&0\\
+
+$c=2$: &$(7)^2-4(1)(2)=49-8&>&0\\
+
+$c=3$: &$(7)^2-4(1)(3)=49-12&>&0\\
+
+$c=4$: &$(7)^2-4(1)(4)=49-16&>&0\\
+
+$c=5$: &$(7)^2-4(1)(5)=49-20&>&0\\
+
+$c=6$: &$(7)^2-4(1)(6)=49-24&>&0\\
+
+$c=7$: &$(7)^2-4(1)(7)=49-28&>&0\\
+
+$c=8$: &$(7)^2-4(1)(8)=49-32&>&0\\
+
+$c=9$: &$(7)^2-4(1)(9)=49-36&>&0\\
+
+$c=10$: &$(7)^2-4(1)(10)=49-40&>&0\\
+
+$c=11$: &$(7)^2-4(1)(11)=49-44&>&0\\
+
+$c=12$: &$(7)^2-4(1)(12)=49-48$&=&1$
+
+\end{tabular}The only value that does not work is $c = 12$. Thus the sum of all positive integer values of $c$ such that the equation has two real and rational roots is $\boxed{8,9,10,11}$."
+2,29,0.13254001959353276,0.4144144144144144,0.05504587155963303,0.1981981981981982,0.3233511950531847,32.298707108059276,False,"Using Vieta's formulas, we know that the sum of roots is -(-5) = 5 and product of roots is 9. Let $a$ be one root and $b$ be another root.
+
+
+
+We are asked to find $(a-1)(b-1)$
+
+
+
+= (a + (-5 - a))(b + (-5 - b))
+
+
+
+= ((5-a))(-4)
+
+
+
+= -(a-b)"
+2,30,0.12318146220361495,0.30674846625766866,0.07453416149068322,0.17177914110429446,0.28251649731371176,32.53837275969345,False,"We can express the roots as $\frac{a}{4}$ and a, so we have:
+
+
+
+$\frac{x^2+bx+\left(\frac{a}{4}\right)\left(a\right)}{(x-\frac{a}{4})(x-a)}=0$
+
+
+
+For $b$ to be the largest possible value, we need $\frac{a}{4}$ to equal zero. Therefore, we can solve for $a$: $\frac{a}{4}=0 \implies a=0.$
+
+
+
+Now, since $ax^2+bx+c$ equals $(x-\alpha)(x-\beta)$, where $\alpha$ and $\beta$ are the roots of the quadratic equation. We also know that $\alpha + \beta = -\frac{b}{a}$ and $\alpha \beta=\frac{c}{a}.$
+
+
+
+Therefore,
+
+
+
+$\begin{aligned}
+
+0+ba&=5(a)+48\\
+
+-24a&=ba+48\\
+
+-b(0)&=-24a
+
+\end{aligned}$"
+2,31,0.007062459062444775,0.02234094220495386,0.012633624878522839,0.018941233608547842,0.09612731912545695,3.8069661789645415,False,"Let $x$ be the number of dollars that one pound of feathers costs, and let $y$ be the number of dollars that one ounce of gold costs.  We can set up a system of two equations to represent the given information:
+
+
+
+\begin{align*}
+
+8x + \frac{2}{16} y &= 932 \\
+
+14x + \frac{3}{16} y &= 1402.
+
+\end{align*}
+
+
+
+Multiplying both sides of each equation by $16$ to clear the fractions, we get
+
+
+
+\begin{align*}
+
+128x+2y&=14896\\
+
+224x+3y&=22528.
+
+\end{align*}
+
+
+
+Multiplying the first equation by 3 and the second equation by 2, we obtain
+
+
+
+$$384x + 6y = 44688$$
+
+
+
+and $$448x + 6y = 45056.$$
+
+
+
+We can now subtract the first of these equations from the second. We get $64x=68$, so dividing both sides by $64$ yields that $x=\frac{1}{2}$. Now, plugging this value for $x$ into our first equation gives us
+
+
+
+\begin{align*}
+
+128(\tfrac12)+2y&=14896\\
+
+64+2y&=14896\\
+
+2y&=14832\\
+
+y &= \frac{14832}{2} = 7416.
+
+\end{align*}
+
+
+
+Now, we can find the cost of five pounds of feathers and five ounces of gold. We have that $5x + 5y = (5)(\tfrac12) + 5(7416) = 2.5 + 37080$, so our desired amount is $\boxed{37082.5}$ dollars.
+
+
+
+Alternatively, we could solve for x and y. If we multiply the first equation by 224 and the second equation by 128, we get
+
+
+
+\begin{align*}
+
+28,672x+448y &= 3290224 \\
+
+17,536x + 384y&= 577280
+
+\end{align*}
+
+
+
+If we subtract these equations, we obtain $11,136x+64y = 3269844$. We can divide by $64$ to find that $x=\frac{50343}{11}=4583.90909$, but this is not an integer, so it cannot be the cost of a pound of feathers in dollars.
+
+
+
+However, we could set up a system with integers and solve for x and y. Multiplying both sides of each equation by 16 to clear the fractions, we get
+
+
+
+\begin{align*}
+
+128x+2y&=14896\\
+
+224x+3y&=22528.
+
+\end{align*}
+
+
+
+Multiplying the first equation by $3$ and the second equation by $2$, we obtain
+
+
+
+$$384x + 6y = 44688$$
+
+
+
+and $$448x + 6y = 45056.$$
+
+
+
+We can now subtract the first of these equations from the second. We get $64x=68$, so dividing both sides by $64$ yields that $x=\frac{1}{2}$. Now, plugging this value for $x$ into our first equation gives us
+
+
+
+\begin{align*}
+
+128(\tfrac12)+2y&=14896\\
+
+64+2y&=14896\\
+
+2y&=14832\\
+
+y &= \frac{14832}{2} = 7416.
+
+\end{align*}
+
+
+
+Now, we can find the cost of five pounds of feathers and five ounces of gold. We have that $5x + 5y = (5)(\tfrac12) + 5(7416) = 2.5 + 37080$, so our desired amount is $\boxed{37082.5}$ dollars.
+
+
+
+Alternatively, we could solve for x and y. If we multiply the first equation by 224 and the second equation by 128, we get
+
+
+
+\begin{align*}
+
+28,672x+448y &= 3290224 \\
+
+17,536x + 384y&= 577280
+
+\end{align*}
+
+
+
+If we subtract these equations, we obtain $11,136x+64y = 3269844$. We can divide by $64$ to find that $x=\frac{50343}{11}=4583.90909$, but this is not an integer, so it cannot be the cost of a pound of feathers in dollars.
+
+
+
+We could set up another system with integers and solve for x and y. Let's start again:
+
+
+
+\begin{align*}
+
+8x + \frac{2}{16} y &= 932 \\
+
+14x + \frac{3}{16} y &= 1402.
+
+\end{align*}
+
+
+
+Multiplying both sides of each equation by $16$ to clear the fractions, we get
+
+
+
+\begin{align*}
+
+128x+2y&=14896\\
+
+224x+3y&=22528.
+
+\end{align*}
+
+
+
+We can multiply the first equation by 3 and the second equation by 2:
+
+
+
+\begin{align*}
+
+384x + 6y = 44688 \\
+
+448x + 6y & =45056.
+
+\end{align*}
+
+
+
+Subtracting the first equation from the second, we get $64x=32$, so dividing both sides by $64$ yields that $x=\frac{1}{2}$. But this can't be right, since it is not an integer.
+
+
+
+We could try to multiply the equations by different integers. Let's try multiplying them both by 4:
+
+
+
+\begin{align*}
+
+512x+8y&=59504\\
+
+896x +12y &= 90112.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $384x+4y =30608$. Now we can divide both sides by 64 to find that $6x+y=\frac{30608}{64} = 478.125$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+We could also multiply both equations by 8:
+
+
+
+\begin{align*}
+
+1024x+16y&=470720\\
+
+1792x +24y &= 90112.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $768x + 8y = -471608$. Now we can divide both sides by 64 to find that $12x+y=\frac{-471608}{64}=-7385.125$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+1632x+32y&=950080\\
+
+3584x +48y &=180416.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $1952x +16y = -769664$. Now we can divide both sides by 64 to find that $30.5x+y=\frac{-769664}{64}=-12025.625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 8:
+
+
+
+\begin{align*}
+
+8064x+256y&=760640\\
+
+28672x +384y &=144896.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $20508x +128y = -315744$. Now we can divide both sides by 64 to find that $319.125x+y=\frac{-315744}{64}=-4947.5$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+5184x+1024y&=3075200\\
+
+114688x +12288y &=576896.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $62104x +11064y = -2853120$. Now we can divide both sides by 64 to find that $966.5x+y=\frac{-2853120}{64}=-44368.75$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+131072x+16384y&=48928000\\
+
+524288x +98304y &=921216.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $393216x +81920y =-48878084$. Now we can divide both sides by 64 to find that $6120.75x+y=\frac{-48878084}{64}=-764551.4375$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+1310720x+524288y&=155520000\\
+
+16777216x +3226240y &=29365152.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $1636704x +7981520y =-142857848$. Now we can divide both sides by 64 to find that $25484.5x+y=\frac{-142857848}{64}=-2232.9994375$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 8:
+
+
+
+\begin{align*}
+
+1048576x+4194304y&=1232128000\\
+
+134217728x +26214400y &=232838464.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $12930512x +8422720y =-100937536$. Now we can divide both sides by 64 to find that $202326.5625x+y=\frac{-100937536}{64}=-1584.0625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+16777216x+8388608y&=19660800000\\
+
+268435456x +1310720000y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $101056640x +472973488y =-19265236352$. Now we can divide both sides by 64 to find that $1587.34453125x+y=\frac{-19265236352}{64}=-300805.1953125$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+536870912x+268435456y&=629145600000\\
+
+16969987648x +42949672960y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $16282475536x +16096307952y =-630402911936$. Now we can divide both sides by 64 to find that $2533.515625x+y=\frac{-630402911936}{64}=-9856.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+8589934592x+42949672960y&=9911004800000\\
+
+26960984352x +68719476720y &=118813472.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $8107408000x -25807683840y =-9909998080000$. Now we can divide both sides by 64 to find that $1269.38171875x+y=\frac{-9909998080000}{64}=-1556.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+27309769600x+429496729600y&=313420096000000\\
+
+858993459200x +13743895347200y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $584986758400x -1231467968876800y =-310760129715552$. Now we can divide both sides by 64 to find that $9118.90515625x+y=\frac{-310760129715552}{64}=-4849.015625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+54603686400x+687194767360y&=4933059840000000\\
+
+17592186044800x +10995116277760y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $11198919584000x -30238690509440y =-4924575104320000$. Now we can divide both sides by 64 to find that $1757.533203125x+y=\frac{-4924575104320000}{64}=-7708.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+17592186044800x+219902325555200y&=4933059840000000\\
+
+55960969689600x +70368744177664y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $38368883276800x -484390125220416y =-4924575104320000$. Now we can divide both sides by 64 to find that $6016.421875x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+4398046511104y&=4933059840000000\\
+
+1125899906842624x +281474976710400y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $851433933699072x -860987055299296y =-4924575104320000$. Now we can divide both sides by 64 to find that $13324.213888889x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +4483591746044160y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-1135942932944640x -3075364119489440y =-4924575104320000$. Now we can divide both sides by 64 to find that $17715.07578125x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+4503599627370496x+57646075230342304y&=4933059840000000\\
+
+2251799813685248x +1152921504606846976y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-2150957907804752x -564965129159281024y =-4924575104320000$. Now we can divide both sides by 64 to find that $33613.8828125x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +3621374386966522272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-176111762731893472x -246910879236665536y =-4924575104320000$. Now we can divide both sides by 64 to find that $2775.077778125x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +3621374386966522272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-830895994306291232x -321951159129952256y =-4924575104320000$. Now we can divide both sides by 64 to find that $13010.234375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-445115195891594848x -785433100441164288y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +1152921504606846976y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -265420499509491456y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-2116951889118919040x -7854331004411642880y =-4924575104320000$. Now we can divide both sides by 64 to find that $33011.046875x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +3621374386966522272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-2116951889118919040x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $33011.046875x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-4451151958915948480x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-21169518891189190400x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $33011.046875x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-21169518891189190400x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $33011.046875x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-21169518891189190400x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $33011.046875x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-21169518891189190400x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $33011.046875x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 16:
+
+
+
+\begin{align*}
+
+28147497671040x+140737488355328y&=4933059840000000\\
+
+1125899906842624x +9005791519048442272y &=752832768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-80894679429355200x -2654204995094914560y =-4924575104320000$. Now we can divide both sides by 64 to find that $12703.4375x+y=\frac{-4924575104320000}{64}=-7707.515625$, but this is not an integer, so it cannot be the cost of five pounds of feathers and five ounces of gold in dollars.
+
+
+
+Multiplying both equations by 32:
+
+
+
+\begin{align*}
+
+4503599627370496x+1152921504606846976y&=4933059840000000\\
+
+2251799813685248x +9005791519048442272y &=377248768.
+
+\end{align*}
+
+
+
+Now subtracting the first equation from the second, we get $-44511519589159484800x -78543310044116428800y =-4924575104320000$. Now we can divide both sides by 64 to find that $6955.6552734375x+y=\frac{-4924575104320000}{64}=-7707"
+2,32,0.609424955096977,0.6262626262626263,0.4948453608247423,0.6262626262626263,0.8519059412518808,80.35611161009402,True,"Completing the square gives us $(x + 4)^2 - 16 + (y - 3)^2 - 9 = 0$. Rearranging terms, we have $(x + 4)^2 + (y - 3)^2 = 25$.
+
+
+
+Since this equation is in the standard form of a circle, we can see that the square of the radius is 25. Therefore, the radius must be $\boxed{5}$."
+2,33,0.21789667404562996,0.3,0.10204081632653061,0.24000000000000002,0.3587246993616073,35.18168874736885,False,"We can think of this problem as finding the average value of each element and multiplying it by the number of times we pick that element. Note that in order to get each number from $1$ through $6$, we must include at least one pair that contains that number, so each number appears $8$ times in the sum.
+
+
+
+Therefore, the desired sum is $8 \cdot (1+2+3+4+5+6)$. Evaluating this expression gives $\boxed{84}$"
+2,34,0.22188348911422973,0.3459915611814346,0.11914893617021277,0.21097046413502107,0.38655744593147046,37.694541442798084,False,"We can start by finding the slope of the line using two points from the table. Let's use $(2,-5)$ and $(p,-14)$. The formula for slope is $m=\frac{\Delta y}{\Delta x}$, where $\Delta x$ is the difference between the x-coordinates of the two points, and $\Delta y$ is the difference between their y-coordinates.
+
+
+
+$$m = \frac{-14 - (-5)}{p-2} = \frac{-9}{p-2}$$
+
+
+
+Since all three points lie on a straight line, we can find another equation for slope using $(p,-14)$ and $(p+2,-17)$. Again, using the slope formula:
+
+
+
+$$m = \frac{-17 - (-14)}{(p+2)-p} = \frac{-3}{2}$$
+
+
+
+Since the slopes must be equal (because they describe the same line), we can set them equal to each other and solve for $p$.
+
+
+
+\begin{align*}
+
+-m &= \frac{-9}{p-2}\\
+
+\Rightarrow 3(p-2)&amp;=9\\
+
+\Rightarrow p-2&amp;=3\\
+
+\Rightarrow p&amp;=\boxed{5}.
+
+\end{align*}
+
+
+
+Finally, we can find $q$ by substituting $x=p=5$ into the equation of the line: $y=-14$. Thus $q=\boxed{-14}$.
+
+
+
+Therefore,  $p+q = \boxed{-9}.$"
+2,35,0.21537175264351194,0.25833333333333336,0.10084033613445378,0.20833333333333331,0.42380013702288505,46.1548813891634,False,"To find the eighth term of the sequence, we need to find the common ratio and then use it to calculate the eighth term.
+
+
+
+The common ratio can be found by dividing any term by its previous term. Let's divide the second term by the first term:
+
+
+
+$\frac{\frac{25}{3}}{\frac{125}{9}} = \frac{25}{3} \times \frac{9}{125} = \frac{225}{375} = \frac{3}{5}$
+
+
+
+Now that we have the common ratio, we can use it to find the eighth term. We know the first term is $\frac{125}{9}$ and the common ratio is $\frac{3}{5}$.
+
+
+
+We can calculate the eighth term using the formula:
+
+
+
+$a_n = a_1 \cdot r^{n-1}$
+
+
+
+where $a_n$ is the nth term, $a_1$ is the first term, $r$ is the common ratio, and $n$ is the term number we want to find.
+
+
+
+For this sequence, $a_1 = \frac{125}{9}$, $r = \frac{3}{5}$, and $n = 8$. Plugging these values into the formula, we get:
+
+
+
+$a_8 = \frac{125}{9} \cdot (\frac{3}{5})^{8-1}$
+
+$= \frac{125}{9} \cdot (\frac{3}{5})^7$
+
+$= \frac{125}{9} \cdot \frac{2187}{78125}$
+
+$= \frac{125 \cdot 2187}{9 \cdot 78125}$
+
+$= \frac{281875}{687125}$
+
+
+
+Simplifying the fraction, we get:
+
+
+
+$a_8 = \frac{281875}{687125}$
+
+$= \frac{4375}{78125}$
+
+$= \frac{875}{15625}$"
+2,36,0.5408448503448454,0.35294117647058826,0.20408163265306123,0.35294117647058826,0.6608102326209833,52.67159810652542,True,"We can rewrite both sides of the equation using a common base.
+
+
+
+$9^{18n}=(3^2)^{18n}=3^{36n}$ and $27^{24}=(3^3)^{24}=3^{72}$.
+
+
+
+Since $3^{36n}=3^{72}$, we have that $36n=72$, so $n=\boxed{2}$"
+2,37,0.1403763462942151,0.2037037037037037,0.028037383177570093,0.1111111111111111,0.2512490741320735,32.08603986774251,False,"To solve this inequality, we can break it up into two parts:
+
+
+
+$-4 < x^4 + 4x^2$ and $x^4 + 4x^2 < 21$
+
+
+
+For the first part, we can rewrite it as
+
+$x^4 + 4x^2 + 4 > 0$
+
+$(x^2 + 2)^2 > -4$
+
+Since $(x^2 + 2)^2$ is always non-negative, this inequality is satisfied for all real values of x.
+
+
+
+For the second part, we can rewrite it as
+
+$x^4 + 4x^2 - 21 < 0$
+
+$(x^2 + 3)(x^2 - 7) < 0$
+
+
+
+This inequality is satisfied when either $-3 < x^2 < 7$ or $-7 < x^2 < -3$. Since we are only concerned with real values of x, we can ignore the latter condition. For the former condition, we have $x = \pm\sqrt{7} > 0$, so we know that the inequality is satisfied for $-\sqrt{7}"
+2,38,0.7668870241805558,0.7792207792207793,0.64,0.7792207792207793,0.6994023963025111,87.95195898944975,False,"The common denominator desired is $\sqrt{2}\cdot\sqrt{3} = \sqrt{6}$. So, this expression becomes \[\frac{\sqrt{2}\cdot(\sqrt{2}\cdot\sqrt{3})+1\cdot\sqrt{3}+\sqrt{3}\cdot(\sqrt{2}\cdot\sqrt{3})+1\cdot\sqrt{2}}{\sqrt{6}}.\]Simplifying this gives \[\frac{2\sqrt{3}+\sqrt{3}+3\sqrt{2}+\sqrt{2}}{\sqrt{6}} = \frac{4\sqrt{3}+4\sqrt{2}}{\sqrt{6}}.\]To rationalize, multiply numerator and denominator by $\sqrt{6}$ to get \[\frac{4\sqrt{3}\cdot\sqrt{6}+4\sqrt{2}\cdot\sqrt{6}}{6} = \frac{8\sqrt{6}+8\sqrt{2}}{6}.\]Simplifying yields ${\frac{8(\sqrt{6}+\sqrt{2})}{6}}$, so the desired sum is $8+4+6=\boxed{18}$"
+2,39,0.46327387449242036,0.3230769230769231,0.15625000000000003,0.26153846153846155,0.5085097523559062,43.01819803917741,True,"We can rearrange the given equation to get
+
+\[(x^2-14x)+(y^2-48y)=0 \Rightarrow (x^2-14x+49)-(49)+(y^2-48y+576)-(576)=0\]
+
+\[\Rightarrow [(x-7)^2]-49+[(y-24)^2]-576=0 \Rightarrow [(x-7)^2]+[(y-24)^2]=625.\]
+
+
+
+The maximum value of $(y-24)^2$ is achieved when we let $(x-7)^2 = 0$. That is, $x = 7$. In this case, the equation becomes
+
+\[(y - 24)^2 = 625 \Rightarrow y - 24 = \pm \sqrt{625}.\]
+
+Since $\sqrt{625}=25$, we get two solutions: 
+
+\[y-24=25, \quad 24-y=-25,\]
+
+or equivalently, 
+
+\[y=49, \quad y=-1.\]
+
+The maximum value of $y$ is therefore $\boxed{49}$."
+2,40,0.769504398640534,0.7969924812030075,0.6717557251908397,0.7969924812030075,0.8179612826143114,74.60367532229812,False,"Using the distributive property, we can expand this to get:
+
+
+
+\begin{align*}
+
+(2x^5 + 3x^2)(x^4 - 4x^2 + 3x - 8) &= (2x^5)(x^4 - 4x^2 + 3x - 8) + (3x^2)(x^4 - 4x^2 + 3x - 8) \\
+
+&= 2x^{9} - 8x^7 + 6x^6 - 16x^4 + 3x^6 - 12x^4 + 9x^3 - 24x^2 \\
+
+&= \boxed{2x^9 - 8x^7 + 9x^6 - 28x^4 + 9x^3 - 24x^2}.
+
+\end{align*}"
+2,41,0.2618045502385808,0.373134328358209,0.12121212121212122,0.2537313432835821,0.4144851440593673,44.54892685768212,True,"Using the quadratic formula, we can find that the roots of the equation are given by:
+
+
+
+$$x = \frac{-m\pm\sqrt{m^2-64}}{4}$$
+
+
+
+In order for these roots to be real and distinct, the expression inside the square root must be positive. This implies that $m^2 - 64 > 0$.
+
+
+
+Simplifying this inequality, we get:
+
+
+
+$m^2 > 64$
+
+
+
+Taking the square root of both sides, we get:
+
+
+
+|m| > 8
+
+
+
+This can be written in interval notation as:
+
+
+
+$$(-\infty,-8)\cup (8,\infty)$$"
+2,42,0.4478287418306379,0.2388059701492537,0.0923076923076923,0.20895522388059704,0.7034909462568483,59.86655121034362,True,"To find the value of $b$ when $a=4$, substitute $x=4$ into the equation for the line:
+
+
+
+\begin{align*}
+
+3(4) + 2y &amp;= 12\\
+
+12+2y &amp;= 12\\
+
+2y&amp;=0\\
+
+y&amp;=0.
+
+\end{align*}Therefore, when $a = 4$, the value of $b$ is $\boxed{0}$.
+
+
+
+So, $(a,b) = (4,0)$"
+2,43,0.4039283937312473,0.32098765432098764,0.17721518987341772,0.2962962962962963,0.403151097837509,51.869277880398435,True,"Since $|x-1|=7$, either $x-1=7$ or $x-1=-7$. If $x-1=7$, then $x=8$.  If $x-1=-7$, then $x=-6$. So, the sum of all values of $x$ such that $|x-1|=7$ is $\boxed{2}$.
+
+
+
+Challenge: Can you find a quicker way to solve this problem by thinking about the graph of $y=|x-1|$?"
+2,44,0.060022308811262484,0.23958333333333337,0.031578947368421054,0.14583333333333331,0.19217752101601288,21.072424760834565,True,"Let $f(p)$ be the function representing the number of copies sold each month, and let $g(p)=p\cdot f(p) = 128p-4p^2$ be the revenue. To find where this is maximized we can use the formula for maxima in terms of derivatives:
+
+
+
+$$
+
+\frac{d}{dp} g(p)=f'(p)\cdot p + g(p)\\
+
+= -8p+128.
+
+$$
+
+
+
+Now, to solve the equation $\frac{d}{dp}g(p) = 0$, we set this equal to zero:
+
+
+
+$$-8p+128=0 \Rightarrow p=\boxed{16}$$."
+2,45,0.29482669417672125,0.22388059701492535,0.030303030303030307,0.13432835820895525,0.3758970912389376,40.755152813740615,False,"To solve for w, we can start by converting the mixed number to an improper fraction:
+
+
+
+$\frac{1}{6}$
+
+
+
+Now that we have the mixed number converted to an improper fraction, we can rewrite the equation as:
+
+
+
+$\frac{\frac16}{w} = \frac{42}{3}$
+
+
+
+To divide fractions, we multiply by the reciprocal of the denominator. So we can rewrite the equation as:
+
+
+
+$\frac16 \cdot \frac{1}{w} = \frac{42}{3}$
+
+
+
+Simplifying this expression gives us:
+
+
+
+$\frac{1}{6w} = \frac{42}{3}$
+
+
+
+To solve for w, we can cross-multiply and simplify:
+
+
+
+$1 = 6w \cdot 14$
+
+
+
+$1 = 84w$
+
+
+
+$w = \frac{1}{84}$"
+2,46,0.23744791211940194,0.2,0.0,0.15,0.31864426154549613,32.16566215499033,True,"To evaluate this expression, we need to follow the order of operations (PEMDAS):
+
+
+
+$(1+2i)6 = 6 + 12i$
+
+
+
+Now, subtract $3i$:
+
+
+
+$6 + 12i - 3i = 6 + 9i$"
+2,47,0.06485806428628492,0.13157894736842107,0.026548672566371678,0.09649122807017545,0.3288909910770286,30.40440769450392,False,"To find $a+b$, we can first rewrite the given equation as $\frac{4a+3b}{a-2b}=5$. Then, by cross-multiplying and simplifying, we get:
+
+
+
+$$\begin{array}{r r c r@{}l}
+
+(4a+3b)\cdot 5 &=& (a-2b)\cdot 5\\
+
+20a + 15b &=& 5a -10b \\
+
+\hline
+
+15a +25b &=&0.
+
+\end{array}$$
+
+
+
+We can multiply both sides by $\frac{1}{5}$ to get $3a+5b=0$. Then, we can isolate $b$:
+
+
+
+$$\begin{array}{r r c r@{}l}
+
+5b &=& -3a \\
+
+b &=& \dfrac{-3a}{5}.
+
+\end{array}$$
+
+
+
+Finally, substitute this expression for b into the original equation for a+b. We have $$a + b = \boxed{\dfrac{-3a+5a}{5}}$$ which equals $\boxed{2a/5}$.
+
+
+
+Now let's find a value for $a$. Notice that if we multiply both sides of $20a+15b=0$ by 5, we get $100a +75b = 0$. Then we can isolate b:
+
+
+
+ $$\begin{array}{r r c r@{}l}
+
+75b &=& -100a \\
+
+b &=& \dfrac{-100a}{75} \\
+
+&=& -\dfrac{4a}{3}.
+
+\end{array}$$
+
+
+
+Now substitute this expression for b into the equation $a + b = \boxed{\dfrac{-3a+5a}{5}}$. We have $$a+\left(-\dfrac{4a}{3}\right)=\boxed{\dfrac{2a}{5}}.$$ 
+
+
+
+Now we can solve for a:  $$-\dfrac{1}{3}a = \dfrac{2a}{5}$$. 
+
+
+
+Multiplying both sides by -15, we get $-25a = -6a$, so that $19a=0$ and $a=\boxed{0}.$
+
+
+
+Finally, $b=-\frac{4(0)}{3}=\boxed{0},$ so that $\dfrac{a+11b}{a-b}=\dfrac{\dfrac{0+0}{5}}{\dfrac{0-0}{5}}=\boxed{0}$.
+
+
+
+Thus, the answer is 0."
+2,48,0.20925953007822914,0.14457831325301204,0.07407407407407407,0.14457831325301204,0.4459809566250038,46.67056599618924,True,"To simplify the expression $(2-2i)(5+5i),$ we need to use the distributive property and FOIL method. 
+
+
+
+$$(2-2i)(5+5i) = 2(5) + 2(5i) - 2i(5) - 2i(5i)$$
+
+
+
+Now, simplify each term:
+
+
+
+$=10 + 10i - 10i - 10i^2$
+
+
+
+Since $i^2 = -1$, we substitute that in to get:
+
+
+
+$= 10 + 10i - 10i - 10(-1)$
+
+
+
+Combine like terms and simplify further:
+
+
+
+$= 10 + 10 = 20$
+
+
+
+Therefore, the simplified expression is $\boxed{20}.$"
+2,49,0.24308120790072538,0.21276595744680854,0.06521739130434781,0.19148936170212766,0.631055335197347,48.94068376975476,True,"To factor this expression, we can first look for any common factors. In this case, both terms are divisible by 7.
+
+
+
+$7x^2 - 63 = 7(x^2 - 9)$
+
+
+
+Next, we notice that the expression inside the parentheses is a difference of squares:
+
+
+
+$x^2 - 9 = (x + 3)(x - 3)$
+
+
+
+So, the final factorization of the original expression is:
+
+
+
+$7x^2 - 63 = \boxed{7(x+3)(x-3)}$"
+2,50,0.2593781081893412,0.15584415584415587,0.07999999999999999,0.12987012987012986,0.4841579030333056,50.30192716805546,False,"To find $f(y) + g(y)$, we simply add the corresponding terms:
+
+
+
+$f(y) + g(y) = (y^4 -3y^3 +y - 3) + (y^3 + 7y^2 -2)$
+
+
+
+$= y^4 + (-3y^3 + y^3) + 7y^2 + y + (-3 - 2)$
+
+
+
+$= y^4 + 4y^3 + 7y^2 + y - 5$
+
+
+
+Therefore, $f(y) + g(y) = \boxed{y^4 + 4y^3 + 7y^2 + y - 5}$."
+2,51,0.050940789004374896,0.2431372549019608,0.03162055335968379,0.1254901960784314,0.2815682373673374,25.861679054468556,False,"Since we're looking for the maximum value of $f(x)-g(x)$, it's equivalent to finding the minimum value of $-(f(x)-g(x))$, which is the same as finding the maximum value of $g(x)-f(x)$. (The negative sign can be pulled out since subtraction in one order is the same as subtraction in the other.) Therefore, we need only consider the graph of $g(x)$ and subtract its corresponding points from those on the graph of $f(x)$.
+
+
+
+[asy]
+
+import graph; size(8cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-1.5,xmax=18.5,ymin=-2,ymax=13;
+
+
+
+pen cqcqcq=rgb(0.75,0.75,0.75);
+
+
+
+/*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(""2 2""); real gx=1,gy=1;
+
+for(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs);
+
+
+
+Label laxis; laxis.p=fontsize(10);
+
+
+
+xaxis("""",xmin,xmax,Ticks(laxis,Step=2.0,Size=2,NoZero),Arrows(6),above=true); yaxis("""",ymin,ymax,Ticks(laxis,Step=1.0,Size=1,NoZero),Arrows(6),below=true);
+
+draw((0,10)--(2,8)--(7,4)--(9,4)--(18,12),darkgreen+1.5);
+
+draw((0,2)--(4,8)--(9,8)--(11,9)--(18,9),orange+dashed+1.5);
+
+[/asy]
+
+
+
+This is the same as subtracting the minimum value of $g(x)$ from the maximum value of $f(x)$. From the graphs, we can see that $f(0)=10$, and $g(0)=2$ so $\left.f(0\right)-\left.g(0)\right|=8$.
+
+
+
+From the graphs, we also know that $f(9)=g(11)$ but no other points on the two lines are equal.  The maximum value of $f(x)-g(x)$ must occur at one of these three pairs of corresponding points: $(0,10), (1,7), (8,4)$ and $(9,g(11))$.  Since we know that $\left.f(0\right)-\left.g(0)\right|=8$, this means that $f(x)-g(x) \leq 7$ at $(1,7)$."
+2,52,0.22264550706679995,0.14232209737827714,0.03773584905660377,0.13483146067415727,0.6197829623138861,37.28367266471501,True,"## Step 1: Understand the given problem
+
+We are given that f is an invertible function from (-\infty,\infty) to (-\infty,\infty), and we need to find the value of f(x) - f^{-1}(x).
+
+
+
+## Step 2: Use the equation f(f(x)) = x to derive a relationship between f(x) and f^{-1}(x)
+
+We are given that f(f(x)) = x. By definition, this implies that f(x) is equal to f^{-1}(f(x)). Since f is invertible, we know that f(x) = y if and only if f^{-1}(y) = x.
+
+
+
+## Step 3: Substitute f(x) for y in the equation from step 2
+
+Letting y = f(x), we have f(f(x)) = x. This means that f(x) is equal to the value of f inverse that gives us back x.
+
+
+
+## Step 4: Apply the definition of inverse function to simplify the expression from step 3
+
+By the definition of an inverse function, this tells us that f(x) is the input that corresponds to the output x under f inverse.
+
+
+
+## Step 5: Write down the relationship between f(x), f^{-1}(x), and x using mathematical notation
+
+This can be expressed as f(f(x)) = f^{-1}(f(x)) = x, which implies that f(x) = x for some value of x.
+
+
+
+## Step 6: Find f(x) - f^{-1}(x)
+
+Since we now know that f(x) = x, we have f(x) - f^{-1}(x) = x - x = 0.
+
+
+
+The final answer is: $\boxed{0}$"
+2,53,0.06369587835045593,0.24505928853754938,0.06374501992031872,0.15810276679841895,0.31268166089965393,35.08457403630197,False,"We can start by finding the common difference of the sequence. Let's look at the first two terms:
+
+
+
+$1000 - 987 = 13$
+
+
+
+So, the common difference is $-13$. To find the least positive term, we need to add multiples of the common difference until we reach a positive number.
+
+
+
+Starting from $1000$, let's subtract $13$ repeatedly until we get a positive number:
+
+
+
+$1000 - 13(80) = 1000 - 1040 = -40$
+
+
+
+$-40 - 13(3) = -40 - 39 = -79$
+
+
+
+$-79 - 13(6) = -79 - 78 = -157$
+
+
+
+$-157 - 13(12) = -157 - 156 = -313$
+
+
+
+$-313 - 13(24) = -313 - 312 = -625$
+
+
+
+$-625 - 13(48) = -625 - 624 = -1249$
+
+
+
+We need to continue subtracting multiples of $13$ from $1000$ until we reach a positive number. Let's add the negative numbers back up:
+
+
+
+$1000 + 1249 = 2250$
+
+$2250 - 1568 = 682$
+
+$682 + 1304 = 1986$
+
+
+
+The least positive integer in the sequence is $\boxed{1986}$."
+2,54,0.16599064948440745,0.12765957446808512,0.014388489208633094,0.11347517730496455,0.4094228497301304,32.62964481287104,False,"To evaluate this expression, we can use the properties of logarithms.
+
+
+
+First, let's simplify the expression inside the logarithm:
+
+
+
+$\sqrt{2} = 2^{\frac{1}{2}}$
+
+
+
+Now, we can rewrite the original expression as:
+
+
+
+$\log_28\sqrt{2} = \log_28 \cdot 2^{\frac{1}{2}}$
+
+
+
+Next, we can use the property of logarithms that states $\log_ab^n = n \log_ab$ to simplify further:
+
+
+
+$\log_28 \cdot 2^{\frac{1}{2}} = \frac{1}{2} \log_28$
+
+
+
+Now, let's find the value of $\log_28$. Since $8=2^3$, we can rewrite this as:
+
+
+
+$\log_28 = \log_{2^3} 2$
+
+
+
+Using the property of logarithms that states $\log_ab^n = n \log_ab$, we have:
+
+
+
+$\log_{2^3} 2 = \frac{1}{3} \log_{2^3} 2^1 = \frac{1}{3}$
+
+
+
+Therefore, substituting this value back into the previous expression, we get:
+
+
+
+$\frac{1}{2} \log_28 = \frac{1}{2} \cdot \frac{1}{3} = \boxed{\frac{1}{6}}$"
+2,55,0.03735875803048785,0.25510204081632654,0.10309278350515463,0.17346938775510204,0.1826265527133843,19.426008262823135,False,"We want to find the maximum value of t such that \[(70)60 - (70 + 1)t > 4200. \] Simplifying this equation gives us \[4200 < t.\] Since t must be an integer, we can deduce that the largest $t$ which will bring the amusement park a profit greater than $\$4200$ is 42.
+
+Alternatively, you could simply test different values of t, as the problem allows for."
+2,56,0.22782609719348218,0.1818181818181818,0.0,0.12987012987012986,0.4844598622836724,38.133029887885414,False,"To evaluate this expression, we can use the properties of logarithms.
+
+
+
+Let's start by rewriting $64\sqrt{8}$ as $64 \cdot 8^{1/2} = (8^3) \cdot (8^{1/2}) = 8^{7/2}$.
+
+
+
+Now, we can rewrite $\log_{\sqrt{8}}(64\sqrt{8})$ as $\log_{\sqrt{8}}(8^{7/2})$.
+
+
+
+Using the property of logarithms that says $\log_b(b^x) = x$, we can simplify this to:
+
+
+
+$\frac{7}{2} \cdot \log_{\sqrt{8}}(\sqrt{8})$
+
+
+
+Since $\sqrt{8}$ is equal to $8^{1/"
+2,57,0.6721363580895295,0.810126582278481,0.7792207792207791,0.810126582278481,0.8738129695116497,89.51996615318899,True,"We can simplify: $$k(y) = \frac{1}{2y+1}.$$ The fraction $\frac{1}{2y+1}$ fails to be defined only if the denominator is zero. This occurs when $y$ is the solution of the equation $$2y+1=0,$$ which is $y=-\frac{1}{2}$. Thus the domain of $k(y)$ is $\boxed{\left(-\infty,-\frac{1}{2}\right)\cup \left(-\frac{1}{2},\infty\right)}$."
+2,58,0.15369426763845348,0.32950191570881227,0.10038610038610038,0.18390804597701146,0.5050072912608382,42.799726166942506,False,"For any given value of n, we can rewrite the equation in standard quadratic form: x^2 + 5x + n = 0. To determine if this has real roots, we can use the discriminant (b^2 - 4ac) of the quadratic formula.
+
+
+
+Let a = 1, b = 5 and c = n. Then, we have b^2 - 4ac = 25 - 4(1)(n) = 25 - 4n.
+
+
+
+Since we want to find out if there are any real solutions, we need the discriminant to be less than or equal to zero. Therefore, we can set up an inequality:
+
+
+
+25 - 4n <= 0
+
+
+
+Solving for n, we get:
+
+
+
+n >= 25/4 = 6.25.
+
+
+
+This means that in order for the given equation to have no real solutions, the value of n must be at least 7 (since n is between 1 and 10 inclusive).
+
+
+
+Therefore, out of the 10 integers from 1 to 10, there are only two values of n (i.e. 7 and 8) that satisfy the condition.
+
+
+
+Hence, the probability is: $\frac{2}{10} = \boxed{\frac{1}{5}}$."
+2,59,0.35990706248434357,0.08791208791208792,0.0,0.08791208791208792,0.7049405214394922,50.02129618988177,True,"Given that $f(1) = 2$, $f(4) = 3$, and $f(7) = 4$, we can find some values for $f^{-1}$ by switching the input and output of each function value.
+
+
+
+$f(1)=2 \implies f^{-1}(2)=1$
+
+
+
+$f(4)=3 \implies f^{-1}(3)=4$
+
+
+
+$f(7)=4 \implies f^{-1}(4)=7$
+
+
+
+To find $f^{-1}(f^{-1}(3))$, we first need to determine the value of $f^{-1}(3)$.
+
+
+
+We know that $f^{-1}(3) = 4$ (from previous calculation).
+
+
+
+Now, substitute this into $f^{-1}(f^{-1}(3))$:
+
+
+
+$f^{-1}(f^{-1}(3))=f^{-1}(4)=7$
+
+
+
+So, the answer is $\boxed{7}$."
+2,60,0.22205413053055265,0.16,0.04166666666666667,0.16,0.21333333333333335,31.651015132451477,True,"To simplify the expression, we need to multiply the two complex numbers.
+
+
+
+$(3-i)(6+2i) = 18 + 6i - 6i - 2i^2$
+
+
+
+Since $i^2 = -1$, we can substitute:
+
+
+
+$= 18 - 2(-1)$
+
+
+
+$= 18 + 2$
+
+
+
+$= 20$"
+2,61,0.6539141719735083,0.6727272727272727,0.46296296296296297,0.6181818181818182,0.7736527373168534,72.60051661761547,True,"We start by completing the square: \begin{align*}
+
+x^2 - 14x + 3 &= (x^2 -14x) +3\\
+
+&= (x^2 -14x + (7/2)^2 - (7/2)^2) + 3\\
+
+& = (x-7)^2 - \frac{1}{4}
+
+.\end{align*} Since the square of a real number is at least $0$, we have $(x-7)^2\geq0$, where $(x-7)^2=0$ only if $x=7$. Therefore, $x^2-14x+3$ is minimized when $x=\boxed{7}.$"
+2,62,0.13819393922700185,0.3294117647058823,0.24096385542168672,0.3058823529411765,0.13864946206532783,24.89097451613509,False,"Let's start by simplifying the innermost expression:
+
+
+
+$$\root 3 \of {x \root 3 \of {x \root 3 \of {x \sqrt{x}}}} = \root 3 \of {x^{\frac{4}{3}}x^\frac{1}{2}} = \root 3 \of {x^\frac{5}{3}}$$
+
+
+
+Now, we can simplify the next expression:
+
+
+
+$$\root 3 \of {x^\frac{5}{3}} = x^\frac{5}{9}$$
+
+
+
+So, the simplified expression is $x^\frac{5}{9}$."
+2,63,0.4694178562298496,0.23655913978494622,0.04395604395604396,0.12903225806451613,0.509220737961604,45.063828361978345,False,"The solutions of $x(x-3)=1$ may be expressed as the quadratic formula: \begin{align*}
+
+x&=\frac{-(-3)\pm\sqrt{(-3)^2-4(1)(0)}}{2}\\
+
+&= \frac{3 \pm \sqrt{9}}{2} = \frac{3 \pm 3}{2}.
+
+\end{align*}
+
+
+
+Thus, the solutions to the equation are $x=\frac{6}{2}=3$ and $x=\frac{0}{2}=0$. Since 3 is a prime number, we have that $a=3$, $b=3$, and $c=2$. It follows that $abc=(3)(3)(2)=\boxed{18}$."
+2,64,0.05353539494324747,0.1511627906976744,0.0823529411764706,0.13953488372093023,0.24055263157894746,31.20854376625268,False,"The product of the roots of a quadratic equation in the form of ax^2 + bx + c = 0 is given by c/a.
+
+
+
+In this case, we have:
+
+
+
+a = 2
+
+b = 13
+
+c = 6
+
+
+
+So, the product of the roots (r1 * r2) is equal to c/a = 6/2 = 3.
+
+
+
+Since the product of the squares of the solutions is equal to the square of the product of the solutions, we can calculate it as follows:
+
+
+
+(r1^2 + r2^2) = (r1 + r2)^2 - 2 * r1 * r2
+
+
+
+We already know that (r1 + r2) = -b/a = -13/2 and (r1 * r2) = c/a = 6/2 = 3.
+
+
+
+Substituting these values, we get:
+
+
+
+(r1^2 + r2^2) = (-13/2)^2 - 2 * 3
+
+= 169/4 - 6
+
+= 169/4 - 24/4
+
+= 145/4
+
+
+
+Therefore, the product of the squares of the solutions is 145/4."
+2,65,0.2997689741167367,0.27397260273972607,0.08450704225352111,0.21917808219178084,0.5747784308667453,51.991747737398995,False,"Since a = 8, we can substitute this into the equation:
+
+
+
+$$
+
+\begin{aligned}
+
+&=\left(16\cdot \sqrt[3]{\left(8\right)^2} \right)^{\frac 13}\\ 
+
+&= (16\cdot \sqrt[3]{64})^{\frac 13}\\ 
+
+&=(16\cdot 4)^{\frac 13}\\
+
+&=(64)^{\frac 13}
+
+\end{aligned}
+
+$$
+
+
+
+Since $8^3 = 512$ and $4^3 = 64$, we can say that $\sqrt[3]{64} = 4$. Therefore, 
+
+
+
+$$
+
+(64)^{\frac 13} = (8^3)^{\frac 13} = \boxed{8}.
+
+$$"
+2,66,0.27662993103715366,0.3973509933774835,0.1476510067114094,0.23841059602649006,0.3687179219513893,35.632767490188165,False,"Since $m+n = 8$, we can square both sides to obtain $(m+n)^2 = m^2 + n^2 + 2mn = 64.$ Since $mn = 7,$ we have that $m^2 + n^2 = (m+n)^2 - 2mn = 64-14=50.$
+
+
+
+We want to find $|m-n|$ so let's try to express this in terms of $m$ and $n$. We know that $(m-n)^2=m^2-2mn+n^2$, so \begin{align*}
+
+|(m-n)|&=\sqrt{(m-n)^2}\\
+
+&=\sqrt{m^2-2mn+n^2}\\
+
+&=\sqrt{50}.
+
+\end{align*}
+
+
+
+Therefore, $|m-n|$ is equal to the square root of 50."
+2,67,0.11963450276855178,0.18120805369127518,0.02027027027027027,0.12080536912751677,0.3106469923518753,34.134937364224136,False,"Let $(x,y)$ be a point on the graph. Since it's on the graph, we have that $\displaystyle y = \frac{1}{2} x^2 - 9.$ Now, we want to find the distance from this point to the origin, which is equivalent to finding $d,$ where
+
+
+
+$$d=\sqrt{x^2+y^2}=\sqrt{\left(x-\frac{-45}{x}\right)^2 + \left(y+\frac{9}{x}\right)^2}.$$
+
+Since we know that $\displaystyle y = \frac{1}{2} x^2 - 9,$ we can substitute this into the expression for $d$ to obtain
+
+
+
+\begin{align*}
+
+d&=\sqrt{\left(x-\frac{-45}{x}\right)^2 + \left(\frac{1}{2}x^2-9+\frac{9}{x}\right)^2}\\
+
+&= \sqrt{\left(x+\frac{45}{x}\right)^2 + \left(\frac{x^2}{2}-\frac{81}{x}\right)^2}.
+
+\end{align*}
+
+To find the value of $d$, we can minimize this expression. We see that
+
+
+
+$$d=\sqrt{\left(x+\frac{45}{x}\right)^2 + \left(\frac{x^2}{2}-\frac{81}{x}\right)^2},$$so if we set $\displaystyle f(x) = x+\frac{45}{x}$ and $\displaystyle g(x)=\frac{x^2}{2}-\frac{81}{x}$, then $d$ can be expressed as
+
+$d=\sqrt{f(x)^2+g(x)^2}.$Since we want to minimize this expression, we want to minimize the values of $f(x)$ and $g(x)$. Let's first find their derivatives. We have that
+
+
+
+\begin{align*}
+
+\frac{d}{dx}\left(x+\frac{45}{x}\right)&=\frac{x^2-45}{x^2},\\
+
+\frac{d}{dx}\left(\frac{x^2}{2}-\frac{81}{x}\right)&=x-\frac{81}{x^2}.
+
+\end{align*}Setting both of these derivatives to be equal to $0$, we can find the critical points. We have that
+
+
+
+$$\begin{cases}
+
+x^2-45&=0,\\
+
+x^3-81&=0.
+
+\end{cases}$$Solving for $x$ gives us $\displaystyle x = \pm 3.$ Checking our solutions in both of our derivatives, we can see that the critical points are $(3,0)$ and $(-3,0)$. Now, let's find the values of $\displaystyle f(3)$ and $\displaystyle g(3)$ by plugging these into the equations for $f$ and $g$:$$\begin{align*}
+
+f(3)&=3+\frac{45}{3} = 18,\\
+
+g(3)&=\frac{9}{2}-\frac{81}{3}=-36.
+
+\end{align*}$$So the point $(x,y)=(3,-18)$ gives us $\displaystyle d^2=(f(x))^2+(g(x))^2=18^2+(-36)^2=18^2+\boxed{1296}$"
+2,68,0.27553435784774993,0.13157894736842105,0.08108108108108109,0.10526315789473685,0.6655696207451147,56.27125959633757,True,"To find the midpoint of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$, we use the midpoint formula:
+
+
+
+$$\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$$
+
+
+
+In this case, $P = (5, 3)$ and $Q = (-3, 6)$. Plugging these values into the midpoint formula gives:
+
+
+
+$$\left(\frac{5 + (-3)}{2}, \frac{3 + 6}{2}\right) = \left(\frac{2}{2}, \frac{9}{2}\right) = (1, 4.5)$$
+
+
+
+So the midpoint of $\overline{PQ}$ is $(1, 4.5)$."
+2,69,0.1484721303597895,0.19780219780219782,0.05555555555555555,0.10989010989010989,0.3550304404051536,33.45462347616883,False,"Each row consists of the proper fractions with denominator $n+1$, in order, and there are $\binom{n+1}{n}$ of them.  To find the sum of all these fractions in the $15^{\text{th}}$ row, we need to add $$\sum_{k=1}^{15}\frac{k}{16},$$where each term is of the form $\frac{k}{16}$ for some $1 \le k \le 15$. Since this sum has a well-known formula for it (in fact, it's one of only two sums that I know of which have formulas), we can use it to find our answer. The other sum with a known formula is $\sum_{k=0}^{n}\frac{n+1-k}{n+2}$.
+
+
+
+To be more specific, note that $$\sum_{k=1}^{n}\frac{k}{m}=m\cdot \left(\frac{1}{2}+\frac{1}{m}-\frac{1}{m+n}\right)-\frac{n}{m(m+n)},$$ where $m$ is the denominator of the fractions. Setting $m=16$ and $n=15$, we find that $$\sum_{k=1}^{15}\frac{k}{16}=16\cdot \left(\frac{1}{2}+\frac{1}{16}-\frac{1}{31}\right)-\frac{15}{16(31)}=\boxed{\frac{1069}{480}}.$$"
+2,70,0.3208520895731554,0.5277777777777779,0.4285714285714285,0.5277777777777779,0.6922829236878822,71.58858380811935,False,"We complete the square.  We can square $x + \frac{4}{2} = x + 2$ to get $(x + 2)^2 = x^2 + 4x + 4$.  So, we write $x^2 + 4x + 5 = (x + 2)^2 - 1$, so that $a = 1$, $h = \boxed{-2}$, and $k = \boxed{-1}$."
+2,71,0.22809333195186085,0.37837837837837834,0.3055555555555556,0.37837837837837834,0.6621766381766382,33.93736544993093,True,"To find the value of y^2 - 3xy + 8 when (x,y) = (3,9), we first substitute the values of x and y into the expression:
+
+
+
+y^2 - 3xy + 8
+
+= 9^2 - 3 * 3 * 9 + 8
+
+= 81 - 81 + 8
+
+
+
+Simplifying this expression gives us:
+
+= 8"
+2,72,0.03452939434966354,0.1956521739130435,0.03296703296703296,0.13043478260869562,0.1956388865408249,27.383486092337446,False,"Let's call the smaller number x and the larger number y. We are given that the ratio of x to y is 3:5, so we can write this as:
+
+
+
+x/y = 3/5
+
+
+
+We are also given that when 4 is subtracted from x and 8 is added to y, the new ratio becomes 2:7. This means that the new ratio of (x-4)/(y+8) = 2/7.
+
+
+
+Now we can set up an equation using these two ratios:
+
+
+
+(x-4)/(y+8) = 2/7
+
+
+
+We can cross-multiply to get:
+
+
+
+7(x-4) = 2(y+8)
+
+
+
+Expanding both sides of the equation, we get:
+
+
+
+7x - 28 = 2y + 16
+
+
+
+Now, we can substitute x/y = 3/5 into this equation. We know that y/x = 5/3, so we can write:
+
+
+
+y = (5/3)x
+
+
+
+Substituting this expression for"
+2,73,0.0,0.13592233009708737,0.0,0.058252427184466014,0.19743614429279205,22.669372570062336,True,"If j and k are inversely proportional, then j * k = k constant. We know that j = 16 when k = 21, so (16)(21) = k or k = 336.
+
+
+
+Now we want to find the value of j when k = 14.
+
+So we have: 
+
+(14)k = 336
+
+j = 336/14 
+
+= 24
+
+
+
+Therefore, the value of j is 24."
+2,74,0.1514519277440216,0.14035087719298248,0.0,0.10526315789473685,0.3249575301295935,34.635204957350936,False,"We have that
+
+\begin{align*}
+
+2x^2-13x+k&=0\\
+
+\Rightarrow\qquad 2x^2-13x+\left(\frac{13-\sqrt{131}}{4}\right)&=0\\
+
+\Rightarrow\qquad x^2-\frac{13}{2}x+\frac{\sqrt{131}}{8}&=0.
+
+\end{align*}This is a quadratic equation, so by the Quadratic Formula, we have that its solutions are \begin{align*}
+
+x&=\frac{-(-13/2)\pm\sqrt{(-13/2)^2-4(1)(\sqrt{131}/8)}}{2(1)}\\
+
+&=\frac{13/2\pm\sqrt{(169/4)-(13/\sqrt{16})}}{2}\\
+
+&=\frac{13/2\pm\sqrt{\left(\frac{169}{4}\right)-\left(\frac{13}{4}\right)}}{2}\\
+
+&=\frac{13/2\pm\sqrt{\left(\frac{156}{4}\right)}}{2}\\
+
+&=\frac{13/2\pm 3}{2}.
+
+\end{align*}This means that $\frac{13-\sqrt{131}}{4}$ is a root of $x^2 - \frac{13}{2} x + k$, so we can solve for the value of $k$: \begin{align*}
+
+k&=\left(\frac{\sqrt{131}}{8}\right)\\
+
+\end{align*}, Therefore, $\boxed{k=\frac{\sqrt{131}}{8}.}$"
+2,75,0.14796397951861642,0.34426229508196726,0.05,0.1967213114754098,0.4360610274392838,38.67447041714638,True,"To solve this equation, we can start by multiplying out the left-hand side:
+
+
+
+$$2x^2 - 20x = -50.$$
+
+
+
+We can then add $50$ to both sides and simplify:
+
+
+
+$$2x^2 - 20x + 50 = 0.$$Now we can divide each term by $2$, which gives us
+
+
+
+$$x^2-10x+25=0.$$We know that the quadratic expression factors into $(x-5)^2$. The only solution is then x=5.
+
+
+
+So, in this case, there is only one possible value of $x$ and its sum with itself is just 5."
+2,76,0.1097180549094339,0.23364485981308414,0.04716981132075472,0.11214953271028037,0.23079989941740783,31.878631812095897,False,"Because the parabola passes through the point $(-1,0),$ we have that \begin{align*}
+
+a-b+c=0
+
+\end{align*}and because it also passes through $(5,0)$, we have that \begin{align*}
+
+25a+5b+c=0.
+
+\end{align*}Subtracting the first equation from this yields $26a+6b=0$, which tells us that $b=-\frac{13}{13}a$.  Substituting this value for $b$ into our earlier equations, we obtain \begin{align*}
+
+a-(-\frac{13}{13}a)+c&=0\\
+
+26a+6(-\frac{13}{13}a)&=0,
+
+\end{align*}which both yield the same equation: $24a+c=0$, or equivalently, $c=-24a$.  Plugging these values into our second equation yields \begin{align*}
+
+25a-5(13/13)a+(-24a)&=0\\
+
+&\Rightarrow\qquad 100a+10b+c=25a+5(13/a)+(-24a)\\
+
+&=25a+\frac{65}{a}-24a\\
+
+&=\boxed{\frac{a^2+41a}{a}}.
+
+\end{align*}Therefore, if we pick a specific value for $a$, this will give us the value of $100a+10b+c$.  For instance, setting $a=1$ gives \begin{align*}
+
+100a+10b+c=\frac{a^2+41a}{a} &= \frac{1^2+41(1)}{1}\\
+
+&=42.
+
+\end{align*}"
+2,77,0.36360230388694836,0.08108108108108107,0.0136986301369863,0.06756756756756757,0.3601380669046006,50.53499499440984,False,"We can start by simplifying each cube root:
+
+
+
+$\sqrt[3]{12} = \sqrt[3]{4\cdot 3} = \sqrt[3]{2^2\cdot 3}$
+
+
+
+$\sqrt[3]{20} = \sqrt[3]{4\cdot 5} = \sqrt[3]{2^2\cdot 5}$
+
+
+
+$\sqrt[3]{15} = \sqrt[3]{3\cdot 5} = \sqrt[3]{3\cdot 5}$
+
+
+
+$\sqrt[3]{60} = \sqrt[3]{4\cdot 15} = \sqrt[3]{2^2\cdot 3\cdot 5} = \sqrt[3]{(2\cdot 3)\cdot 5}$
+
+
+
+Now, we can multiply the simplified expressions:
+
+
+
+$\sqrt[3]{12}\times \sqrt[3]{20}\times \sqrt[3]{15}\times \sqrt[3]{60}$
+
+= $(\sqrt[3]{2^2\cdot 3})\times (\sqrt[3]{2^2\cdot 5})\times (\sqrt[3]{3\cdot 5})\times (\sqrt[3]{(2\cdot 3)\cdot 5})$
+
+= $\sqrt[3]{2^2\cdot 3}\times \sqrt[3]{2^2\cdot 5}\times \sqrt[3]{3\cdot 5}\times \sqrt[3]{(2\cdot 3)\cdot 5}$
+
+= $\sqrt[3]{2^2\cdot 3^2\cdot 5^3}$
+
+
+
+To simplify the expression, we need to multiply $2^2$ by $3^2$, and then multiply $5^3$. This gives us:
+
+
+
+$\sqrt[3]{2^2\cdot 3^2\cdot 5^3} = \sqrt[3]{(2\cdot 3)^2\cdot 125}$
+
+= $\sqrt[3]{6^2\cdot 125}$
+
+= $6\sqrt[3]{5}$
+
+
+
+So, the final answer is $6\sqrt[3]{5}$."
+2,78,0.26172159876785406,0.2253521126760563,0.1,0.16901408450704228,0.45639911297117725,42.83986687399585,False,"To find the value of x for which the two fractions are equal, we can set them equal to each other and solve for x:
+
+
+
+\[\frac{2x-1}{2x+2}=\frac{x-3}{x-1}\]
+
+
+
+Cross-multiplying gives:
+
+
+
+\[ (2x-1)(x-1) = (x-3)(2x+2) \]
+
+
+
+Expanding both sides, we get:
+
+
+
+\[ 2x^2 - 3x + 1 = 2x^2 - x - 6 \]
+
+
+
+Subtracting $2x^2$ from both sides gives:
+
+
+
+\[ -3x + 1 = -x - 6 \]
+
+
+
+Adding $x$ to both sides gives:
+
+
+
+\[ -2x + 1 = -6 \]
+
+
+
+Subtracting 1 from both sides gives:
+
+
+
+\[ -2x = -7 \]
+
+
+
+Dividing both sides by $-2$ gives:
+
+
+
+\[ x = \frac{-7}{-2} = \boxed{\frac{7}{2}} \]"
+2,79,0.037878385865508075,0.2054794520547945,0.013888888888888886,0.1506849315068493,0.1907759616314595,23.71475777296316,False,"We can use the quadratic formula to solve this equation:
+
+
+
+y = -4.9t^2 - 3.5t + 2.4
+
+
+
+To find when the ball hits the ground, we set y to 0 and solve for t:
+
+
+
+0 = -4.9t^2 - 3.5t + 2.4
+
+
+
+Rearranging the equation gives us:
+
+
+
+4.9t^2 + 3.5t - 2.4 = 0
+
+
+
+Using the quadratic formula, we get:
+
+
+
+t = (-b ± √(b^2 - 4ac)) / 2a
+
+
+
+where a = 4.9, b = 3.5, and c = -2.4.
+
+
+
+Plugging in these values gives us:
+
+
+
+t = (-(3.5) ± √((3.5)^2 - 4(4.9)(-2.4))) / (2(4.9))
+
+
+
+Simplifying this expression, we get two possible solutions for t:"
+2,80,0.0927342922716503,0.4142011834319526,0.16766467065868265,0.27218934911242604,0.2831727544362461,46.43098814459014,False,"To solve this problem, we need to find the ratio between the circumferences of the two paths.
+
+
+
+The circumference is directly proportional to the radius, so the ratio of the radii is equal to the ratio of the circumferences. 
+
+
+
+Let's denote the number of revolutions as R. We have:
+
+Circumference ∝ Radius
+
+64:16 = 27*R
+
+
+
+Solving for R we get:
+
+R = (27 * 16)/64
+
+R = 81/4
+
+R = 20.25
+
+
+
+So the horse that is 16 feet from the center needs to make approximately 20.25 revolutions to travel the same distance as the horse that is 64 feet from the center."
+2,81,0.15240288114038475,0.4523809523809524,0.16,0.24603174603174602,0.36901948402381707,43.11109253937674,True,"To find the sum of all multiples of 3 between 100 and 200, we need to first find all the multiples of 3 in this range.
+
+
+
+The first multiple of 3 greater than or equal to 100 is 102.
+
+The last multiple of 3 less than or equal to 200 is 198.
+
+
+
+We can use the formula for the sum of an arithmetic series:
+
+
+
+sum = (n/2)(first term + last term)
+
+
+
+where n is the number of terms. 
+
+
+
+To find n, we need to subtract the first multiple from the last multiple and divide by 3, then add 1: 
+
+n = ((198 - 102)/3) + 1 = 33.
+
+
+
+Now that we have all the necessary values, we can plug them into the formula:
+
+sum = (33/2)(102 + 198)
+
+= 16.5(300)
+
+= 4950.
+
+
+
+So, the sum of all multiples of 3 between 100 and 200 is 4950."
+2,82,0.1931707890117622,0.2621082621082621,0.045845272206303724,0.13675213675213677,0.3759095756024739,41.33263928305098,False,"To solve the equation, we can start by multiplying out the left-hand side:
+
+
+
+$$(\sqrt{12x}+12)(\sqrt{3x}-6) = 12\sqrt{12x}\sqrt{3x} - 72\sqrt{12x} + 12\sqrt{3x} - 72$$
+
+
+
+Now, let's simplify the expression $\sqrt{12x}\sqrt{3x}$ to get $2\sqrt{36x^2} = 12x$. So the equation becomes:
+
+
+
+$$(12x-72)\sqrt{3x}-72=4(x+3)+x-34$$
+
+
+
+Next, we can expand and simplify the right-hand side of the equation:
+
+
+
+$$4(x+3) + x - 34 = 5x + 12 - 34 = 5x - 22$$
+
+
+
+Now the equation becomes:
+
+
+
+$$(12x-72)\sqrt{3x}-72=5x-22$$
+
+
+
+Add 72 to both sides:
+
+
+
+$$(12x-72)\sqrt{3x}=5x+50$$
+
+
+
+Now, square both sides of the equation and simplify:
+
+
+
+$$(12x-72)^2(3x) = (5x+50)^2$$
+
+
+
+Expanding both sides gives:
+
+
+
+$$(144x^2 - 1728x + 5184)(3x) = 25x^2 + 500x + 2500$$
+
+
+
+This is a cubic equation in terms of $x$, and solving it exactly can be challenging. However, we can try to find the rational roots using the Rational Root Theorem or by inspection.
+
+
+
+One way to simplify the process is to look for special products on both sides:
+
+
+
+$$(12x-72)^2(3x) = (5x+50)^2$$
+
+
+
+The left-hand side looks like a perfect square trinomial when multiplied out. 
+
+
+
+Expanding the right-hand side gives:
+
+
+
+$$144x^3 - 1728x^2 + 5184x=25x^2 + 500x + 2500$$
+
+
+
+Subtracting $25x^2 + 500x + 2500$ from both sides yields:
+
+$$(144x^3-1753.5x^2+4684x-2500=0)$$
+
+
+
+
+
+Notice that this is a cubic equation, and solving it exactly can be challenging. However, we can try to find the rational roots using the Rational Root Theorem or by inspection.
+
+
+
+We can use numerical methods such as Newton's method to solve the equation approximately."
+2,83,0.07109113256196624,0.17391304347826086,0.03296703296703297,0.11956521739130437,0.35413562578419067,25.28967845510533,False,"Since the units digit of both numbers must add up to a 2-digit number with a units digit of 4, we can conclude that A+C=6.
+
+
+
+Similarly, since the tens digits must add up to a two-digit number ending in 1, we know that B+D = 11. We now have:
+
+
+
+A + C = 6
+
+B + D = 11
+
+
+
+Adding these equations together yields: 
+
+
+
+A + B + C + D = 17
+
+
+
+Since A+C=6 and B+D=11, then $A+B+C+D$ becomes $6+11$, which is equal to $17$. The sum of the digits in $AMC10$ and $AMC12$ is $1+2+3+4+0+1+2$ which equals 13. Therefore, $123422-13=123409$.
+
+
+
+Since $A+B+C=D+E$, $123409/100 = 1234.09$. Then $B+D$ would be the remainder of 409 divided by 100. That is $409\%100$, or $\boxed{9}$.
+
+
+
+Therefore, $A + B + C + D + E=1 + 2 + 3 + 4 + 0 + 1 + 2 + 9 = \boxed{22}$."
+2,84,0.06518959558913458,0.15873015873015872,0.06451612903225806,0.12698412698412698,0.49773916843195176,34.04868893891584,True,"Since the amount of salt is given in terms of teaspoons per quart, first we must convert $2$ teaspoons into quarts. Since a teaspoon equals $\frac{1}{8}$ of a cup and a cup equals 16 ounces, there are 16/8 = 2 cups, each of which is equivalent to 4 quarts. Therefore, 2 teaspoons of salt would be $\frac{2}{2} \cdot 4=2$ quarts.
+
+
+
+We know that the amount of salt is given by $x \cdot \frac14$, where $x$ represents the number of quarts used for the recipe. Setting this equal to $2$ gives us
+
+
+
+$$\frac{x}{4}=2,$$
+
+
+
+so $x = 8$. Therefore, $\boxed{8}$ quarts of water will be used for two teaspoons of salt."
+2,85,0.9169772785972178,0.6956521739130435,0.5714285714285715,0.6956521739130435,0.8865220249835634,100.0,True,"From the defined function, we know that $3\ast10 = 2(3)+5(10)-(3)(10)=6+50-30=\boxed{26}$."
+2,86,0.0,0.13861386138613863,0.03,0.09900990099009901,0.2658143723770755,23.78525992167301,False,"The sequence can be defined recursively as follows: let $a_0 = 0$ and for each positive integer $n$, let
+
+
+
+$a_n = \begin{cases} a_{n-1} + n &\text{if }n\text{ is even}\\ a_{n-1}\cdot n&\text{if }n\text{ is odd}.\end{cases}$
+
+
+
+The first few terms of the sequence are
+
+\[ 0, 1, 1, 3, 6, 9, 27, \ldots .\]
+
+We notice that when $n$ is even, the value of $a_n$ increases by $n$, and therefore $a_{2k}$ exceeds $125$ if and only if $$a_k + k > 125.$$Similarly, when $n$ is odd, the value of $a_n$ increases by $n\cdot a_{k-1}$. Thus, for the next term in the sequence after that with value greater than $125$, we have
+
+\[a_{2k+1}= a_k\cdot(2k+1)> 125.\]
+
+
+
+Since $9 > 125/3$, it follows that $k=4$ satisfies the inequality $a_k + k> 125$.  We can compute $a_4$ as follows: \begin{align*}
+
+0 + 1 &= 1\\
+
+1 + 2 &= 3\\
+
+3 + 3 &= 6\\
+
+6\cdot4&=24\\
+
+24+5 &=29.
+
+\end{align*}Therefore the first term greater than $125$ is $a_4 = \boxed{29}$."
+2,87,0.06489426168056354,0.0,0.0,0.0,0.41396979503775627,22.013411023106293,True,"To evaluate this, we can use the fact that $\log_ab=\frac{\log b}{\log a}$.
+
+
+
+So, $\log_21=\frac{\log 2}{\log 1}=\frac{\log 2}{0}=\infty$
+
+
+
+Therefore, $\log_21$ is not defined."
+2,88,1.0,1.0,1.0,1.0,0.9999976851851852,100.0,True,"The product of the roots of this quadratic is $-36/1=-36$, so the other solution must be $-36/-4=9$. That means that the sum of the solutions is $-4+9=5$. The sum of the solutions is also $-b/1=-b$. Thus, $-b=5$ and $b=\boxed{-5}$."
+2,89,0.10248608066417832,0.21476510067114093,0.04081632653061224,0.14765100671140938,0.17437358559318783,29.699911933157335,True,"We are given two equations:
+
+
+
+1) 2d = 17e - 8
+
+2) 2e = d - 9
+
+
+
+From equation (2), we can express d in terms of e as follows:
+
+
+
+d = 2e + 9
+
+
+
+Substituting this expression for d into equation (1), we get:
+
+
+
+2(2e + 9) = 17e - 8
+
+
+
+Expanding and simplifying, we get:
+
+
+
+4e + 18 = 17e - 8
+
+
+
+Moving all terms with e to one side of the equation, we get:
+
+
+
+13e = 26
+
+
+
+Dividing both sides by 13, we get:
+
+
+
+e = 2
+
+
+
+Therefore, the value of e is 2."
+2,90,0.32591362553634806,0.2956521739130435,0.10619469026548672,0.1739130434782609,0.5033753680458701,50.67301271820139,True,"To find the smallest value of the expression $x^2-6x+13$, we can complete the square:
+
+
+
+\begin{align*}
+
+x^2 - 6x + 13 &= (x^2 - 6x) + 13 \\
+
+&= \left( x^2 - 6x + 9 \right) + 4 \\
+
+&= (x-3)^2 + 4
+
+\end{align*}
+
+
+
+Since $(x-3)^2$ is always non-negative, the minimum value of $(x-3)^2+4$ occurs when $(x-3)^2 = 0$, which means $x = 3$. Therefore, the smallest value of $x^2 - 6x + 13$ is $4$."
+2,91,0.16305250668396365,0.32044198895027626,0.055865921787709494,0.17679558011049723,0.27506796737565964,29.623404190859443,True,"Let's call the smaller number x and the larger number x + 2 (since they are consecutive even numbers). We know that their difference of squares is 60, so we can write:
+
+
+
+(x+2)^2 - x^2 = 60
+
+
+
+Expanding the left-hand side gives us:
+
+
+
+x^2 + 4x + 4 - x^2 = 60
+
+
+
+Combine like terms to get:
+
+
+
+4x + 4 = 60
+
+
+
+Subtract 4 from both sides to get:
+
+
+
+4x = 56
+
+
+
+Divide by 4 to solve for x:
+
+
+
+x = 14
+
+
+
+So the smaller number is 14 and the larger number is 16. The sum of these two numbers is:
+
+
+
+14 + 16 = 30"
+2,92,0.3575836276285629,0.200836820083682,0.06722689075630252,0.11715481171548116,0.32921597252039503,42.382433751710245,False,"## Step 1: Understand the problem
+
+We are given that two positive numbers $p$ and $q$ have the property that their sum is equal to their product, i.e., $p + q = pq$, and their difference is $7$, i.e., $p - q = 7$. We need to find $\frac{1}{\frac{1}{p^2}+\frac{1}{q^2}}$ in the form $\frac{a+b\sqrt{c}}{d}$.
+
+
+
+## Step 2: Express $p$ and $q$ using their difference
+
+We can express $p$ as $q + 7$, since their difference is $7$.
+
+
+
+## Step 3: Substitute $p$ into the equation $p + q = pq$
+
+Substituting $p = q + 7$ into the equation, we get $(q + 7) + q = (q + 7)q$. This simplifies to $2q + 7 = q^2 + 7q$.
+
+
+
+## Step 4: Rearrange the equation to form a quadratic
+
+Rearranging the terms, we have $0 = q^2 + 5q - 7$.
+
+
+
+## Step 5: Solve for $q$
+
+Using the quadratic formula, $q = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$. Plugging in the values, we get $q = \frac{-5 \pm \sqrt{25 + 28}}{2}$.
+
+
+
+## Step 6: Calculate the roots
+
+Simplifying further, $q = \frac{-5 \pm \sqrt{53}}{2}$.
+
+
+
+## Step 7: Choose the positive root for $q$
+
+Since $q$ is a positive number, we choose the positive root: $q = \frac{-5 + \sqrt{53}}{2}$.
+
+
+
+## Step 8: Find the corresponding value of $p$
+
+Substituting this value back into the expression for $p$, we get $p = q + 7 = \frac{-5 + \sqrt{53}}{2} + 7$.
+
+
+
+## Step 9: Simplify the expression for $p$
+
+This simplifies to $p = \frac{\sqrt{53}-1}{2}$.
+
+
+
+## Step 10: Calculate $\frac{1}{\frac{1}{p^2}+\frac{1}{q^2}}$
+
+Now we can find $\frac{1}{\frac{1}{p^2}+\frac{1}{q^2}}$ by substituting the values of $p$ and $q$. After some algebra, this expression simplifies to $\frac{4 + \sqrt{53}}{53}$.
+
+
+
+## Step 11: Find $a+b+c+d$
+
+Finally, we can identify the values of $a$, $b$, $c$, and $d$: $a = 4$, $b = 1$, $c = 53$, and $d = 53$. Then, $a + b + c + d = 4 + 1 + 53 + 53$.
+
+
+
+## Step 12: Calculate the final answer
+
+Performing the arithmetic, we get $4 + 1 + 53 + 53 = 111$.
+
+
+
+
+
+The final answer is: $\boxed{111}$"
+2,93,0.6051862430577389,0.04,0.0,0.04,0.6389613192375005,41.16589917541683,True,"If $f(1)=2$, $f(2)=6$, and $f(3)=5$, then $f^{-1}(2)=1$, $f^{-1}(6)=2$, and $f^{-1}(5)=3$. Therefore, $f^{-1}(f^{-1}(6))=f^{-1}(2) = \boxed{1}$"
+2,94,0.02203197849913733,0.033388981636060105,0.003350083752093802,0.026711185308848077,0.08368200836820085,12.868849759260817,True,"Let's analyze the given information:
+
+
+
+1. The average of a and 2b is 7, so (a + 2b)/2 = 7, which implies that a + 2b = 14.
+
+2. The average of a and 2c is 8, so (a + 2c)/2 = 8, which implies that a + 2c = 16.
+
+
+
+Now, let's subtract the first equation from the second:
+
+
+
+(a + 2c) - (a + 2b) = 16 - 14
+
+2c - 2b = 2
+
+
+
+Dividing both sides by 2 gives us:
+
+
+
+c - b = 1 ... (3)
+
+
+
+We can express c in terms of b using equation (3):
+
+
+
+c = b + 1
+
+
+
+Now, let's find the average of a, b, and c. We know that their sum is (a + b + c), and we want to find its value.
+
+
+
+Since a + 2b = 14 and a + 2c = 16, we can set up an equation using these two equations:
+
+
+
+(a + 2b) - (a + 2c) = 14 - 16
+
+2b - 2c = -2
+
+
+
+Dividing both sides by 2 gives us:
+
+
+
+b - c = -1 ... (4)
+
+
+
+Now, substitute c = b + 1 from equation (3) into equation (4):
+
+
+
+b - (b + 1) = -1
+
+-1 = -1
+
+
+
+This is true! However, we can't find the individual values of a, b, and c using this method.
+
+
+
+We need to realize that there are infinitely many possible values for a, b, and c that satisfy the given conditions. For example, if a = 5, b = 4, and c = 3, then:
+
+
+
+(a + 2b)/2 = (5 + 8)/2 = 13/2 ≠ 7
+
+So this is not a valid solution.
+
+
+
+Another example: if a = 12, b = 6, and c = 5, then:
+
+
+
+(a + 2b)/2 = (12 + 12)/2 = 24/2 = 12 ≠ 7
+
+So this is also not a valid solution.
+
+
+
+Similarly, we can check that the other values of a, b, and c do not satisfy the given conditions.
+
+
+
+However, notice that for every value of b, there is exactly one corresponding value of a. For example, if b = 4, then:
+
+
+
+a + 2b = 14
+
+a + 8 = 14
+
+a = 6
+
+
+
+So we can express a in terms of b as follows: a = 14 - 2b.
+
+
+
+Now, let's find the average of a, b, and c. We have:
+
+
+
+average = (a + b + c)/3
+
+
+
+Substitute a = 14 - 2b and c = b + 1 into this equation:
+
+
+
+average = ((14 - 2b) + b + (b + 1))/3
+
+= (15 + b)/3
+
+
+
+Now, we need to find the value of b that satisfies the condition that (a + 2c)/2 = 8. Substituting c = b + 1 into this equation:
+
+
+
+(a + 2(b + 1))/2 = 8
+
+(a + 2b + 2)/2 = 8
+
+a + 2b + 2 = 16
+
+
+
+Substitute a = 14 - 2b into this equation:
+
+
+
+(14 - 2b) + 2b + 2 = 16
+
+14 + 2 = 16
+
+This is true for any value of b, so we can't find a unique solution.
+
+
+
+However, notice that if b = 3, then:
+
+
+
+a = 14 - 6 = 8
+
+
+
+So this is a valid solution. Then,
+
+
+
+c = 4
+
+
+
+and the average is:
+
+
+
+average = (8 + 3 + 4)/3
+
+= 15/3
+
+= 5"
+2,95,0.44295543121933345,0.32142857142857145,0.22222222222222224,0.32142857142857145,0.4717326117165216,43.30410820938712,False,"To simplify the expression, we can start by combining like terms and simplifying each fraction:
+
+
+
+$\frac{2s^5}{s^3} - 6s^2 + \frac{7s^3}{s}$
+
+
+
+$= \frac{s^5}{s^3} - 6s^2 + \frac{7s^3}{1}$
+
+
+
+$= s^2 - 6s^2 + 7s^3$
+
+
+
+$= 7s^3 - 5s^2$"
+2,96,0.16250004325299897,0.18181818181818185,0.0574712643678161,0.13636363636363638,0.36268527536958645,30.580701222011907,False,"Let's call the first term of the original series $a$. Then its sum can be written as $$\frac{a}{1 - r} = 2000$$ for some common ratio $r$. Squaring each term of this series gives us a new one, whose terms are $\left( ar^n \right)^2 = a^2 r^{2n}$ and sums to
+
+
+
+$$\frac{a^2}{1-r^2},$$since the original sum is $$S=\frac{a}{1-r}.$$ We are told that this sum is 16 times the sum of the original series, so we have \begin{align*}
+
+\frac{a^2}{1 - r^2}&=16\cdot2000\\
+
+&=32000\\
+
+\Rightarrow\qquad\frac{a}{1-r^2}&=32000.
+
+\end{align*} We already know that $$\frac{a}{1 - r}= 2000,$$ and we can solve for $\frac{a}{1 - r}$ in terms of $r$, giving \begin{align*}
+
+\frac{a}{1-r^2}&=32000\\
+
+\Rightarrow\qquad\frac{\left(\frac{a}{1-r}\right)}{1+r}&=32000.
+
+\end{align*} Since we know that $\dfrac{a}{1 - r}= 2000,$ this becomes $$\frac{2000}{1 + r} = 32000$$, which simplifies to \begin{align*}
+
+1+r&=\frac{2000}{32000}\\
+
+&=\frac{1}{16}\\
+
+\Rightarrow\qquad r&= \boxed{\frac{15}{16}}.
+
+\end{align*}
+
+
+
+The answer is $15 + 16 = \boxed{31}$."
+2,97,0.040669628820264994,0.2643171806167401,0.08,0.15859030837004406,0.3127244340359095,38.53206120744647,False,"To find the number of days the supplies will last, we can divide the total amount of supplies by the number of people.
+
+
+
+Let's denote the cost of one day of camping trip as x. Since there were 12 people originally and they are going to have equal shares for each day, their share would be x/12 per person per day.
+
+
+
+After three more people joined, the number of people becomes 15. So the new daily share will become x/15 per person per day.
+
+
+
+Since they didn't make any further purchases, their supply is not changed. Therefore, we can divide the original total supply by (x/12) and also by (x/15). This gives us:
+
+
+
+12/x * (x/12) = 10
+
+and 
+
+12/x * (x/15) = number of days
+
+
+
+From the first equation, we know that there were 10 days worth of supplies originally.
+
+
+
+We can now plug this value in the second equation:
+
+(12/ x )*(x/15)= number of days 
+
+
+
+So x cancels out and we are left with
+
+12/15= number of days 
+
+
+
+Which simplifies to 
+
+4/5"
+2,98,0.09901792649097452,0.24742268041237112,0.06315789473684211,0.12371134020618556,0.4867414894454102,40.46876753446661,True,"To find the number of terms in this arithmetic sequence, we first need to determine the common difference between consecutive terms, which is $20-13=7$. We then use the formula for the nth term of an arithmetic sequence: $$a_n=a_1+(n-1)d,$$ where $a_n=2008$, $a_1=13$, and $d=7$ to solve for n:
+
+
+
+\begin{align*} a_n&=a_1+(n-1)d\\ 2008&=13+(n-1)7\\ 2008-13&=(n-1)7\\ 1995&=(n-1)7\\ \frac{1995}{7}&=\frac{(n-1)\cdot7}{7}\\ n-1&=285\\ n&=286 \end{align*}
+
+
+
+There are $\boxed{286}$ integers belonging to the sequence."
+2,99,0.17620094825245153,0.29464285714285715,0.04504504504504505,0.16964285714285712,0.20747297661123984,30.932095981359335,False,"The slope of the line passing through (2, 2) and (9, 11) is $\frac{11-2}{9-2}=\frac{9}{7}$.
+
+
+
+The slope of the line passing through (2, 2) and (5, 7) is $\frac{7-2}{5-2}=\frac{5}{3}$.
+
+
+
+The slope of the line passing through (2, 2) and (11, 17) is $\frac{17-2}{11-2}=\frac{15}{9}=\frac{5}{3}$.
+
+
+
+Since the slopes are all equal, the three points lie on a single line. The only point left to check is $(9, 11)$.
+
+
+
+The slope of the line passing through (2, 2) and (9, 11) is $\frac{11-2}{9-2}=\frac{9}{7}$, as calculated above. If we now calculate the slope passing through (5, 7) and (9, 11), we get $\frac{11"
+2,100,0.271378649265789,0.1639344262295082,0.016666666666666666,0.09836065573770492,0.4370400598313792,37.662248731298945,False,"To evaluate g(3), we need to find f^(-1)(3) first.
+
+
+
+We have that 
+
+$$
+
+\begin{aligned}
+
+y &= \dfrac{x+5}{3} \\
+
+x &= \dfrac{3y+5}{y} \\
+
+\dfrac{x-3}{y}&=\dfrac{5}{3}\\
+
+\dfrac{x-3}{\left(\dfrac{1}{g(x)}-1\right)}&=\dfrac{5}{3}.
+
+\end{aligned}
+
+$$
+
+
+
+From the above equation, we have 
+
+
+
+$$
+
+\begin{aligned}
+
+x &= \dfrac{(3y+5)(\dfrac{x-3}{2}) + 15}{3y+5}\\
+
+\dfrac{2x^{2}-9x+15}{3y+5}&=\dfrac{3xy+x-6+15}{2}.
+
+\end{aligned}
+
+$$
+
+
+
+This can be rewritten as
+
+
+
+$$(4x^2-21x+45)\cdot 2 = (9x^2 + x -12 ) \cdot(3y+5).$$
+
+
+
+Thus, $(x-10)(y-7)=20.$
+
+
+
+Now we know that $g(x) =\dfrac{1}{f^{-1}(x)+1}=\dfrac{1}{-\dfrac{x-10}{2}}$. 
+
+
+
+Therefore,
+
+
+
+$g(3)=\boxed{\dfrac{-2}{1}}=-2$
+
+
+
+The final answer is -2."
