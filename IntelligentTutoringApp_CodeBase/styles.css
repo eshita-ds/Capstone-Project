@@ -1,0 +1,162 @@
+/* 
+Project Name: Chain of Thought Reasoning
+Team Number: 6
+Members: Anvesh, Eshita, Neha, Sandeep, Saumya 
+File name: styles.css
+Description: This file contains the CSS styles for the Chain of Thought Reasoning project.
+*/
+
+#login_button {
+    background-color: #5755b7; /* Green background */
+    color: rgb(255, 255, 255); /* White text */
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Add shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+#login_button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 8px 30px rgba(0, 0, 0, 0.25); /* Deeper shadow on hover */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* More pronounced text shadow on hover */
+}
+
+
+#main_heading {
+    background-color: #280580;
+    color: rgb(0, 0, 0);
+    border: none;
+    text-align: center; /* Horizontally center the text */
+    display: flex;
+    justify-content: center; /* Horizontally center (works with flexbox) */
+    align-items: center;
+}
+#main_heading * {
+    color: white; /* Targets all child elements */
+}
+#reg_button {
+    background-color: #eaecf7; /* Green background */
+    color: black; /* White text */
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Add shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#reg_button2 {
+    background-color: #5755b7; /* Green background */
+    color: rgb(255, 255, 255); /* White text */
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Add shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#reg_button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 8px 30px rgba(0, 0, 0, 0.25); /* Deeper shadow on hover */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* More pronounced text shadow on hover */
+}
+
+#reg_button2:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 8px 30px rgba(0, 0, 0, 0.25); /* Deeper shadow on hover */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* More pronounced text shadow on hover */
+}
+
+#registered_button {
+    background-color: #eaecf7; /* Green background */
+    color: rgb(0, 0, 0); /* White text */
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Add shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+#markdowns {
+    background-color: #280580; /* Green background */
+    color: white; /* White text */
+    border: none;
+    text-align: center; /* Horizontally center the text */
+    display: flex;
+    justify-content: center; /* Horizontally center (works with flexbox) */
+    align-items: center;
+}
+#markdowns * {
+    color: white; /* Targets all child elements */
+}
+
+#markdowns_metrics {
+    background-color: #ebeaee; /* Green background */
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Horizontally center (works with flexbox) */
+    align-items: center;
+}
+#markdowns_metrics * {
+    color: rgb(0, 0, 0); /* Targets all child elements */
+    font-size: 18px;
+}
+
+#markdowns_metrics2 {
+    background-color: #d8d9f1; /* Green background */
+    border: none;
+    text-align: center; /* Horizontally center the text */
+    display: flex;
+    justify-content: center; /* Horizontally center (works with flexbox) */
+    align-items: center;
+}
+#markdowns_metrics2 * {
+    color: rgb(0, 0, 0); /* Targets all child elements */
+    font-size: 18px;
+}
+
+#logout_button {
+    background-color: #eaecf7; /* Green background */
+    color: rgb(0, 0, 0); /* White text */
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Add shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+#chat_button {
+    background-color: #5755b7; /* Green background */
+    color: rgb(255, 255, 255); /* White text */
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Add shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+#send_button {
+    background-color: #5755b7; /* Green background */
+    color: rgb(255, 255, 255); /* White text */
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Add shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#button_column {
+    margin-top: 168px; /* Adds spacing between the dropdown and buttons */
+}
+
+#column_with_white_bg {
+    background-color: rgb(250, 250, 250); /* Set the background color to white */
+    padding: 20px; /* Optional: Add padding to ensure content doesn't touch the edges */
+    border-radius: 10px; /* Optional: To add rounded corners */
+    margin-top: 120px;
+}
+
+#column_with_white_bg2 {
+    background-color: white; /* Set the background color to white */
+    padding: 20px; /* Optional: Add padding to ensure content doesn't touch the edges */
+    border-radius: 10px; /* Optional: To add rounded corners */
+}
+
+#row_with_white_bg {
+    background-color: rgb(250, 250, 250); /* Set the background color to white */
+}
+
+#column_with_grey_bg {
+    background-color: rgb(250, 250, 250); /* Set the background color to white */
+}
+
+#chatbot {
+    background-color: rgb(253, 253, 253); /* Set the background color to white */
+}

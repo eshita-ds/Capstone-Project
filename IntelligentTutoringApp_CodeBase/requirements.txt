@@ -1,0 +1,7 @@
+huggingface_hub
+mysql.connector
+dotenv
+transformers
+pydantic==2.8.2
+accelerate
+matplotlib
